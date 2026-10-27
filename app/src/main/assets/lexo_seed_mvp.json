@@ -1,0 +1,3856 @@
+{
+  "pack_id": "lexo_seed_mvp",
+  "version": "1.0",
+  "knowledge_units": [
+    {
+      "id": "ku_tps_s",
+      "name": "Third-person singular -s/-es",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "A2",
+      "behavior": "Add -s/-es to the main verb in affirmative present-simple statements whose subject is he, she, it or a singular noun.",
+      "obligatory_context": "Affirmative present-simple main verb, singular third-person subject, no modal or auxiliary before the verb.",
+      "success_criterion": "The main verb carries -s/-es (or the correct irregular form: has, does, goes).",
+      "out_of_scope": ["questions and negatives with do/does", "modal verbs", "the verb be"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "En español todas las personas llevan marca verbal; en inglés solo la 3.ª singular, y se omite fácil al producir rápido."
+      },
+      "explanation": {
+        "es": "En presente simple, con he/she/it o un sujeto singular, el verbo termina en -s/-es.",
+        "en": "In the present simple, a singular third-person subject takes -s/-es on the verb."
+      }
+    },
+    {
+      "id": "ku_responsible_for",
+      "name": "“responsible for”",
+      "kind": "collocation",
+      "area": "collocations",
+      "band_introduced": "B1",
+      "behavior": "Use “responsible for” (not of/about/to/in) to express ownership of a task or outcome.",
+      "obligatory_context": "The learner expresses that someone is accountable for a task, area or outcome using “responsible”.",
+      "success_criterion": "“responsible” is followed by “for” + noun or gerund.",
+      "out_of_scope": ["“responsible to” meaning accountable to a person"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "“responsable de” invita a decir “responsible of”."
+      },
+      "explanation": {
+        "es": "Se dice “responsible for”, no “responsible of”.",
+        "en": "We say “responsible for”, not “responsible of”."
+      }
+    },
+    {
+      "id": "ku_first_conditional_if_present",
+      "name": "First conditional: present tense in the if-clause",
+      "kind": "construction",
+      "area": "conditionals",
+      "band_introduced": "B1",
+      "behavior": "In an if-clause about a real future possibility, use the present tense, not will/would.",
+      "obligatory_context": "The learner states a real, plain future condition with “if”.",
+      "success_criterion": "The if-clause verb is in the present (simple, continuous or perfect), not will/would.",
+      "out_of_scope": ["“if you will” meaning willingness or politeness", "second and third conditionals"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "El español usa presente de indicativo tras “si” en estos casos, pero el futuro del resto de la frase arrastra “will” al if-clause."
+      },
+      "explanation": {
+        "es": "Tras “if” con una condición futura real se usa presente: “If he approves, we will start.”",
+        "en": "After “if” in a real future condition use the present: “If he approves, we will start.”"
+      }
+    },
+    {
+      "id": "ku_causative_make_let_bare_inf",
+      "name": "make / let + object + base verb",
+      "kind": "construction",
+      "area": "syntax",
+      "band_introduced": "B2",
+      "behavior": "After active “make” and “let” + object, use the base verb (no “to”, no -ing).",
+      "obligatory_context": "The learner uses active make/let with a person or thing as object followed by a verb.",
+      "success_criterion": "The verb after the object is a bare infinitive.",
+      "out_of_scope": ["passive “be made to + verb” (which is correct)", "make + adjective (“make me angry”)"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "“hacer que / dejar que” + subjuntivo empuja a “to” o -ing."
+      },
+      "explanation": {
+        "es": "make/let + objeto + verbo base: “made us repeat”, “lets us work”.",
+        "en": "make/let + object + base verb: “made us repeat”, “lets us work”."
+      }
+    },
+    {
+      "id": "ku_wordfamily_manage",
+      "name": "Choosing the right form of “manage”",
+      "kind": "word_form",
+      "area": "morphology",
+      "band_introduced": "B1",
+      "behavior": "Choose the word form of the manage family that the sentence slot requires.",
+      "obligatory_context": "A slot that requires a specific part of speech of the manage family (verb, noun for activity, noun for person, adjective).",
+      "success_criterion": "The chosen form matches the required part of speech and meaning.",
+      "out_of_scope": ["spelling of unrelated words"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "Confundir sustantivo de actividad, de persona y adjetivo por cognados (gestión / gerente / manejable)."
+      },
+      "explanation": {
+        "es": "manage (verbo) · management (actividad) · manager (persona) · manageable (adjetivo).",
+        "en": "manage (verb) · management (activity) · manager (person) · manageable (adjective)."
+      }
+    },
+    {
+      "id": "ku_agree_verb",
+      "name": "“agree” as a verb (no auxiliary 'be')",
+      "kind": "morphosyntax",
+      "area": "syntax",
+      "band_introduced": "B1",
+      "behavior": "Use “agree” directly as a verb without the auxiliary verb “to be”.",
+      "obligatory_context": "The learner expresses concurrence or agreement with an idea, proposal, or person using “agree”.",
+      "success_criterion": "“agree” is used as a finite verb with its subject; forms with “am/is/are agree” are absent.",
+      "out_of_scope": ["formal “be in agreement”", "agree with vs agree on"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Estoy de acuerdo» empuja al calco erróneo «I am agree»."
+      },
+      "explanation": {
+        "es": "En inglés «agree» ya es un verbo: se dice «I agree», nunca «I am agree».",
+        "en": "In English “agree” is already a verb: say “I agree”, never “I am agree”."
+      }
+    },
+    {
+      "id": "ku_since_for",
+      "name": "“since” vs “for” with duration",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "B1",
+      "behavior": "Use “for” with an extent or duration of time, and “since” only with a specific starting point in time.",
+      "obligatory_context": "The learner indicates duration or starting point of an action or state continuing into the present.",
+      "success_criterion": "Durations take “for”; starting points take “since”.",
+      "out_of_scope": ["since meaning because/since then"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Desde hace X años» hace que los hispanohablantes digan «since 3 years» en vez de «for 3 years»."
+      },
+      "explanation": {
+        "es": "Usa «for» para duración («for two years») y «since» para punto de inicio («since 2021»).",
+        "en": "Use “for” for a period of time (“for two years”) and “since” for a starting point (“since 2021”)."
+      }
+    },
+    {
+      "id": "ku_depend_on",
+      "name": "“depend on”",
+      "kind": "collocation",
+      "area": "collocations",
+      "band_introduced": "B1",
+      "behavior": "Use “depend on” (not “depend of”) to express reliance or contingency.",
+      "obligatory_context": "The learner expresses that an outcome or person relies on something using “depend”.",
+      "success_criterion": "“depend” is followed by “on” (or “upon”); “depend of” is absent.",
+      "out_of_scope": ["“independent of” (which is correct)"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Depender de» empuja a decir «depend of»."
+      },
+      "explanation": {
+        "es": "Se dice «depend on», nunca «depend of».",
+        "en": "Say “depend on”, never “depend of”."
+      }
+    },
+    {
+      "id": "ku_second_conditional_past",
+      "name": "Second conditional: past tense in if-clause",
+      "kind": "construction",
+      "area": "conditionals",
+      "band_introduced": "B2",
+      "behavior": "In an if-clause expressing a hypothetical or unreal condition, use the past simple, not would/will.",
+      "obligatory_context": "The learner states a hypothetical or counterfactual condition with “if”.",
+      "success_criterion": "The verb in the if-clause is in the past simple (e.g. had, were, approved), not would or will.",
+      "out_of_scope": ["first and third conditionals"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "El subjuntivo «si tuviera» empuja a decir erróneamente «if I would have»."
+      },
+      "explanation": {
+        "es": "Tras «if» hipotético se usa pasado simple: «If we had more budget, we would expand».",
+        "en": "In a hypothetical if-clause use the past simple: «If we had more budget, we would expand»."
+      }
+    },
+    {
+      "id": "ku_used_to_vs_be_used_to",
+      "name": "“be used to + -ing” (accustomed to)",
+      "kind": "construction",
+      "area": "syntax",
+      "band_introduced": "B2",
+      "behavior": "Use “be used to + -ing/noun” to express being accustomed to something, and “used to + base verb” for past habits.",
+      "obligatory_context": "The learner expresses familiarity or being accustomed to a routine or state in the present.",
+      "success_criterion": "“be used to” is followed by an -ing gerund or noun phrase, not a base infinitive.",
+      "out_of_scope": ["used to + base verb meaning past habit"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Estar acostumbrado a hacer» se confunde con «solía hacer», produciendo «I am used to work» en vez de «working»."
+      },
+      "explanation": {
+        "es": "Estar acostumbrado: «be used to + -ing» (I am used to working late). Pasado: «used to + verbo base».",
+        "en": "Accustomed: «be used to + -ing» (I am used to working late). Past habit: «used to + base verb»."
+      }
+    },
+    {
+      "id": "ku_discuss_no_about",
+      "name": "“discuss” without “about”",
+      "kind": "collocation",
+      "area": "syntax",
+      "band_introduced": "B1",
+      "behavior": "Use “discuss” directly as a transitive verb taking its object without the preposition “about”.",
+      "obligatory_context": "The learner states that people are talking through an issue, plan or agenda using “discuss”.",
+      "success_criterion": "“discuss” is followed directly by its object noun phrase; “discuss about” is absent.",
+      "out_of_scope": ["talk about", "argue about"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Discutir sobre algo» o «hablar de» invita a traducir como «discuss about»."
+      },
+      "explanation": {
+        "es": "Se dice «discuss the proposal», nunca «discuss about».",
+        "en": "Say «discuss the proposal», never «discuss about»."
+      }
+    },
+    {
+      "id": "ku_look_forward_to_ing",
+      "name": "“look forward to + -ing”",
+      "kind": "construction",
+      "area": "syntax",
+      "band_introduced": "B2",
+      "behavior": "Follow “look forward to” with a gerund (-ing) or noun phrase, not a base verb.",
+      "obligatory_context": "The learner communicates positive anticipation in formal or business correspondence using “look forward to”.",
+      "success_criterion": "“look forward to” is followed by -ing (e.g. hearing, meeting); base infinitive is absent.",
+      "out_of_scope": ["look forward to + noun (which is also correct)"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«to» se confunde con la marca de infinitivo, produciendo «look forward to meet you»."
+      },
+      "explanation": {
+        "es": "Aquí «to» es preposición, por lo que exige gerundio: «look forward to meeting you».",
+        "en": "Here «to» is a preposition, requiring -ing: «look forward to meeting you»."
+      }
+    },
+    {
+      "id": "ku_borrow_vs_lend",
+      "name": "“borrow” (take) vs “lend” (give)",
+      "kind": "word_form",
+      "area": "lexis",
+      "band_introduced": "B1",
+      "behavior": "Use “borrow (from)” to receive something temporarily, and “lend (to)” to give something temporarily.",
+      "obligatory_context": "The learner expresses requesting temporary use or providing temporary use of an item or capital.",
+      "success_criterion": "“borrow” is used for receiving/taking; “lend” for giving/providing.",
+      "out_of_scope": ["loan as a noun"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "En español «prestar» cubre ambos sentidos («¿me prestas?» y «te presto»)."
+      },
+      "explanation": {
+        "es": "borrow = tomar prestado («Can I borrow your badge?»). lend = prestar a otro («Can you lend me your badge?»).",
+        "en": "borrow = receive temporarily («Can I borrow your badge?»). lend = give temporarily («Can you lend me your badge?»)."
+      }
+    },
+    {
+      "id": "ku_say_vs_tell",
+      "name": "“tell + person” vs “say”",
+      "kind": "construction",
+      "area": "syntax",
+      "band_introduced": "B1",
+      "behavior": "Use “tell” with a direct personal object (tell someone), and “say” when no personal object immediately follows without “to”.",
+      "obligatory_context": "The learner reports speech or instructions addressed to a person.",
+      "success_criterion": "“tell” takes a direct personal object; “say” does not take a bare personal pronoun (no “he said me”).",
+      "out_of_scope": ["say something to someone"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Él me dijo» empuja al calco «he said me» en vez de «he told me»."
+      },
+      "explanation": {
+        "es": "Se dice «he told me» o «he said that...», nunca «he said me».",
+        "en": "Say «he told me» or «he said that...», never «he said me»."
+      }
+    },
+    {
+      "id": "ku_embedded_question_order",
+      "name": "Embedded questions: statement word order",
+      "kind": "construction",
+      "area": "syntax",
+      "band_introduced": "B2",
+      "behavior": "In embedded or indirect questions, use statement word order (subject + verb) without do/does inversion.",
+      "obligatory_context": "The learner asks or reports an indirect question embedded within a polite phrase or matrix clause.",
+      "success_criterion": "The embedded question uses wh-word + subject + verb (e.g. where the room is), not inverted order.",
+      "out_of_scope": ["direct questions"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "En español el orden no cambia entre preguntas directas e indirectas («¿Dónde está?» / «Dime dónde está»)."
+      },
+      "explanation": {
+        "es": "En preguntas indirectas el orden es de afirmación: «Could you tell me where the room is?» (no «where is the room»).",
+        "en": "In indirect questions use statement order: «Could you tell me where the room is?» (not «where is the room»)."
+      }
+    },
+    {
+      "id": "ku_present_perf_vs_past_simple",
+      "name": "Past Simple with finished time markers",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "B1",
+      "behavior": "Use the Past Simple (not Present Perfect) when a specific finished time marker is stated (yesterday, last week, ago, in 2020).",
+      "obligatory_context": "The learner refers to an action occurring at a specific finished past time.",
+      "success_criterion": "The verb is in the Past Simple; Present Perfect (have/has + participle) is absent with finished time markers.",
+      "out_of_scope": ["present perfect with unfinished time (this morning, today)"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "En español se usa a menudo el pretérito perfecto para tiempos recientes («hoy he ido», «ayer he visto»)."
+      },
+      "explanation": {
+        "es": "Con marcadores de tiempo terminado (yesterday, last year, ago) se usa pasado simple: «We launched last week» (no «have launched»).",
+        "en": "With finished time markers (yesterday, last year, ago) use the Past Simple: «We launched last week» (not «have launched»)."
+      }
+    },
+    {
+      "id": "ku_dummy_subject_it",
+      "name": "Explicit subject “it” with “to be”",
+      "kind": "syntax",
+      "area": "syntax",
+      "band_introduced": "A1",
+      "behavior": "Provide an explicit subject pronoun (especially dummy “it”) before verbs, avoiding subject omission.",
+      "obligatory_context": "The learner constructs an impersonal evaluation or states a fact with “to be” (e.g. it is necessary, it is true).",
+      "success_criterion": "The clause contains an explicit subject pronoun; subjectless forms like “is necessary” are absent.",
+      "out_of_scope": ["there is / there are"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "El español es una lengua pro-drop («es importante»); el inglés exige sujeto explícito («it is important»)."
+      },
+      "explanation": {
+        "es": "En inglés el verbo siempre necesita sujeto explícito: «It is important», nunca «Is important».",
+        "en": "In English verbs require an explicit subject: «It is important», never «Is important»."
+      }
+    },
+    {
+      "id": "ku_present_aux_do_does",
+      "name": "Auxiliaries “do/does” in present negatives & questions",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "A1",
+      "behavior": "Use do/does + not and do/does + subject with the base form of the main verb, without double marking.",
+      "obligatory_context": "The learner negates or questions a non-be verb in the present simple.",
+      "success_criterion": "Negations use don't/doesn't + base verb; questions invert do/does with subject.",
+      "out_of_scope": ["modal verbs", "verb to be"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "El español solo antepone «no» al verbo («él no trabaja»); en inglés se requiere auxiliar («he doesn't work»)."
+      },
+      "explanation": {
+        "es": "En presente se niega con don't/doesn't + verbo base: «He doesn't work», no «He not works» ni «doesn't works».",
+        "en": "Present negatives require don't/doesn't + base verb: «He doesn't work», not «He not works»."
+      }
+    },
+    {
+      "id": "ku_indefinite_articles_professions",
+      "name": "Indefinite article “a/an” with professions",
+      "kind": "syntax",
+      "area": "morphology",
+      "band_introduced": "A1",
+      "behavior": "Use “a” or “an” before singular countable professions and roles.",
+      "obligatory_context": "The learner states someone's job, title or professional role.",
+      "success_criterion": "A singular profession is preceded by “a” or “an”; bare professions like “I am engineer” are absent.",
+      "out_of_scope": ["plural professions", "uncountable nouns"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "En español no se usa artículo con profesiones («soy gerente»); en inglés es obligatorio («I am a manager»)."
+      },
+      "explanation": {
+        "es": "Las profesiones en singular llevan «a/an»: «She is a director», «I am an architect».",
+        "en": "Singular professions take «a/an»: «She is a director», «I am an architect»."
+      }
+    },
+    {
+      "id": "ku_prep_in_on_at",
+      "name": "Prepositions of time: at / on / in",
+      "kind": "collocation",
+      "area": "morphology",
+      "band_introduced": "A1",
+      "behavior": "Use “at” for clock times/exact points, “on” for days/dates, and “in” for months/years/periods.",
+      "obligatory_context": "The learner specifies a time coordinate in a schedule or calendar.",
+      "success_criterion": "Clock times take “at”; days take “on”; months/years take “in”.",
+      "out_of_scope": ["prepositions of place"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "El español usa «en» para todo («en lunes, en las 9, en julio»); el inglés distingue at/on/in."
+      },
+      "explanation": {
+        "es": "Horas: «at 9:00». Días: «on Monday». Meses/años: «in September».",
+        "en": "Clock times: «at 9:00». Days: «on Monday». Months/years: «in September»."
+      }
+    },
+    {
+      "id": "ku_past_simple_regular_irregular",
+      "name": "Past Simple affirmative high-frequency forms",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "A2",
+      "behavior": "Produce correct past simple affirmative forms for high-frequency regular (-ed) and irregular verbs.",
+      "obligatory_context": "The learner reports completed past events or actions in the affirmative.",
+      "success_criterion": "The verb is correctly inflected in the past simple (e.g. went, saw, met, completed).",
+      "out_of_scope": ["past continuous", "past perfect"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "Confusión entre infinitivo y pasado, o regularizaciones incorrectas como «goed» o «seed»."
+      },
+      "explanation": {
+        "es": "Usa la forma de pasado simple: «We met the client», «They went to the branch».",
+        "en": "Use the past simple form: «We met the client», «They went to the branch»."
+      }
+    },
+    {
+      "id": "ku_past_aux_did_base",
+      "name": "Past auxiliary “didn't” + base verb",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "A2",
+      "behavior": "Use “didn't” followed by the base form of the verb, avoiding double past marking.",
+      "obligatory_context": "The learner negates an action in the past simple.",
+      "success_criterion": "“didn't” is followed by the base verb (e.g. didn't go, didn't see); forms like “didn't went” are absent.",
+      "out_of_scope": ["wasn't/weren't"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "Doble marcación de pasado en el verbo principal: «didn't went» o «didn't had»."
+      },
+      "explanation": {
+        "es": "Con el auxiliar «didn't» el verbo principal vuelve a su forma base: «We didn't go», nunca «didn't went».",
+        "en": "With the auxiliary «didn't» the main verb is in base form: «We didn't go», never «didn't went»."
+      }
+    },
+    {
+      "id": "ku_future_will_vs_going_to",
+      "name": "Future: “be going to” for plans vs “will” for decisions",
+      "kind": "syntax",
+      "area": "syntax",
+      "band_introduced": "A2",
+      "behavior": "Use “be going to” for pre-arranged plans/intentions, and “will” for spontaneous decisions or promises.",
+      "obligatory_context": "The learner communicates an established future project or immediate commitment.",
+      "success_criterion": "Established plans use “be going to + verb”; spontaneous commitments use “will + verb”.",
+      "out_of_scope": ["future continuous", "future perfect"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "El hispanohablante tiende a usar «will» para todo futuro, ignorando «be going to» para planes fijados."
+      },
+      "explanation": {
+        "es": "Para planes e intenciones previas se usa «be going to»: «We are going to launch in Q3».",
+        "en": "For prior plans use «be going to»: «We are going to launch in Q3»."
+      }
+    },
+    {
+      "id": "ku_modals_can_could_bare",
+      "name": "Modals “can / could” + bare infinitive",
+      "kind": "syntax",
+      "area": "syntax",
+      "band_introduced": "A2",
+      "behavior": "Follow modal verbs “can” and “could” directly with the base verb without “to”.",
+      "obligatory_context": "The learner expresses ability, permission or possibility with can/could.",
+      "success_criterion": "“can” or “could” is followed by the bare verb; “can to + verb” is absent.",
+      "out_of_scope": ["be able to"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Poder hacer algo» empuja a añadir «to»: «I can to send the file»."
+      },
+      "explanation": {
+        "es": "Tras «can» o «could» va el verbo base directo sin «to»: «I can send», nunca «I can to send».",
+        "en": "After «can» or «could» use the bare verb without «to»: «I can send», never «I can to send»."
+      }
+    },
+    {
+      "id": "ku_comparatives_er_vs_more",
+      "name": "Comparative adjectives: -er than vs more ... than",
+      "kind": "morphosyntax",
+      "area": "morphology",
+      "band_introduced": "A2",
+      "behavior": "Use “-er than” for short adjectives (faster than) and “more ... than” for long adjectives (more efficient than).",
+      "obligatory_context": "The learner compares two products, solutions, or metrics.",
+      "success_criterion": "Short adjectives take “-er than”; long adjectives take “more ... than”; “more faster” is absent.",
+      "out_of_scope": ["as ... as", "superlatives"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Más rápido que» provoca el calco «more fast than» o dobles formas como «more better»."
+      },
+      "explanation": {
+        "es": "Adjetivos cortos llevan «-er»: «faster than». Adjetivos largos llevan «more»: «more reliable than».",
+        "en": "Short adjectives take «-er»: «faster than». Long adjectives take «more»: «more reliable than»."
+      }
+    },
+    {
+      "id": "ku_verb_patterns_gerund_inf",
+      "name": "Verb patterns: gerund vs infinitive",
+      "kind": "syntax",
+      "area": "syntax",
+      "band_introduced": "B1",
+      "behavior": "Follow specific matrix verbs with either a gerund (avoid, enjoy) or an infinitive (decide, promise).",
+      "obligatory_context": "The learner chains two verbs together (e.g. avoid making, decide to review).",
+      "success_criterion": "The complement matches the required verb pattern; errors like “avoid to make” are absent.",
+      "out_of_scope": ["verbs that change meaning (stop, remember)"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "En español se usa infinitivo para ambos («evitar hacer», «decidir hacer»), generando errores como «avoid to do»."
+      },
+      "explanation": {
+        "es": "Verbos como «avoid» o «enjoy» exigen gerundio: «avoid taking risks», «enjoy meeting clients».",
+        "en": "Verbs like «avoid» or «enjoy» require a gerund: «avoid taking risks», «enjoy meeting clients»."
+      }
+    },
+    {
+      "id": "ku_listen_to",
+      "name": "Preposition “listen to”",
+      "kind": "collocation",
+      "area": "collocations",
+      "band_introduced": "B1",
+      "behavior": "Use “listen to” with its object, never omitting the preposition “to”.",
+      "obligatory_context": "The learner expresses paying attention to audio, advice or a speaker using “listen”.",
+      "success_criterion": "“listen” is followed by “to”; bare forms like “listen the client” are absent.",
+      "out_of_scope": ["hear"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Escuchar algo / a alguien» es directo en español («escuchar la propuesta»), provocando «listen the proposal»."
+      },
+      "explanation": {
+        "es": "Se dice «listen to the presentation», nunca «listen the presentation».",
+        "en": "Say «listen to the presentation», never «listen the presentation»."
+      }
+    },
+    {
+      "id": "ku_present_perf_continuous",
+      "name": "Present Perfect Continuous for duration",
+      "kind": "syntax",
+      "area": "aspect",
+      "band_introduced": "B2",
+      "behavior": "Use have/has been + -ing to emphasize ongoing duration or activity up to the present.",
+      "obligatory_context": "The learner emphasizes the ongoing duration of an activity (e.g. with for/since/all day).",
+      "success_criterion": "The verb phrase uses have/has been + -ing; simple present continuous like “I am working since 9am” is absent.",
+      "out_of_scope": ["stative verbs"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Llevo trabajando dos horas» empuja al error «I am working for two hours»."
+      },
+      "explanation": {
+        "es": "Para acciones en curso con duración se usa «have been doing»: «We have been working on this all morning».",
+        "en": "For ongoing duration use «have been doing»: «We have been working on this all morning»."
+      }
+    },
+    {
+      "id": "ku_modal_deduction_past_pres",
+      "name": "Modals of deduction: must be / must have been",
+      "kind": "syntax",
+      "area": "modality",
+      "band_introduced": "B2",
+      "behavior": "Use “must be / can't be” for present deduction and “must have / can't have + past participle” for past deduction.",
+      "obligatory_context": "The learner draws a logical conclusion from evidence in the past or present.",
+      "success_criterion": "Past deduction uses modal + have + past participle; forms like “must was” or “must be happened” are absent.",
+      "out_of_scope": ["must meaning obligation"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Debe haber sido» se traduce incorrectamente como «must was» o «should have been» en deducción lógica."
+      },
+      "explanation": {
+        "es": "Deducción pasada: «must have been», «can't have been»: «The email must have bounced».",
+        "en": "Past deduction: «must have been», «can't have been»: «The email must have bounced»."
+      }
+    },
+    {
+      "id": "ku_connectors_despite_vs_although",
+      "name": "Concession connectors: “despite + noun/-ing” vs “although + clause”",
+      "kind": "syntax",
+      "area": "syntax",
+      "band_introduced": "B2",
+      "behavior": "Use “despite / in spite of” with a noun phrase or gerund, and “although / even though” with a full clause (subject + verb).",
+      "obligatory_context": "The learner connects contrasting ideas expressing concession.",
+      "success_criterion": "“despite” is followed by a noun/gerund; “although” is followed by a clause; “despite + clause” is absent.",
+      "out_of_scope": ["however / nonetheless"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«A pesar de que» empuja a decir «despite that he was...» o «despite he was...» sin «the fact that»."
+      },
+      "explanation": {
+        "es": "«Despite + sustantivo/-ing»: «Despite the delay». «Although + sujeto + verbo»: «Although it was delayed».",
+        "en": "«Despite + noun/-ing»: «Despite the delay». «Although + subject + verb»: «Although it was delayed»."
+      }
+    },
+    {
+      "id": "ku_passive_continuous_perfect",
+      "name": "Passive voice in continuous and perfect tenses",
+      "kind": "morphosyntax",
+      "area": "syntax",
+      "band_introduced": "B2",
+      "behavior": "Form the passive voice correctly in continuous (is being + participle) and perfect (has been + participle) tenses.",
+      "obligatory_context": "The learner describes an ongoing process or completed state where the patient is the subject.",
+      "success_criterion": "Continuous passives use “be + being + past participle”; perfect passives use “have/has been + past participle”.",
+      "out_of_scope": ["simple present passive"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Se está actualizando» empuja a calcos como «is updating» o «is being update»."
+      },
+      "explanation": {
+        "es": "Pasiva continua: «is being updated». Pasiva perfecta: «has been resolved».",
+        "en": "Continuous passive: «is being updated». Perfect passive: «has been resolved»."
+      }
+    },
+    {
+      "id": "ku_third_conditional_past_hypo",
+      "name": "Third conditional: past counterfactual hypotheses",
+      "kind": "construction",
+      "area": "conditionals",
+      "band_introduced": "B2",
+      "behavior": "In third conditional sentences, use “if + had + past participle” in the if-clause, and “would have + past participle” in the result clause.",
+      "obligatory_context": "The learner reflects on past unchangeable outcomes and alternative possibilities.",
+      "success_criterion": "If-clause uses had + past participle (not would have); result clause uses would have + past participle.",
+      "out_of_scope": ["mixed conditionals"],
+      "prerequisites": [],
+      "l1_note": {
+        "es": "«Si hubiéramos sabido» provoca el doble would: «If we would have known, we would have acted»."
+      },
+      "explanation": {
+        "es": "Tercer condicional: «If we had known the risk, we would have stopped the launch».",
+        "en": "Third conditional: «If we had known the risk, we would have stopped the launch»."
+      }
+    }
+  ],
+  "error_signatures": [
+    {
+      "id": "sig_tps_omission",
+      "ku_id": "ku_tps_s",
+      "name": "Missing -s/-es",
+      "feedback_es": "Escribiste «{quote}». Con un sujeto singular de tercera persona el verbo lleva -s/-es: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. A singular third-person subject needs -s/-es: “{correction}”."
+    },
+    {
+      "id": "sig_resp_wrong_prep",
+      "ku_id": "ku_responsible_for",
+      "name": "Wrong preposition after responsible",
+      "feedback_es": "Escribiste «{quote}». Con «responsible» se usa «for»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. “Responsible” takes “for”: “{correction}”."
+    },
+    {
+      "id": "sig_fc_will_in_if",
+      "ku_id": "ku_first_conditional_if_present",
+      "name": "will/would inside the if-clause",
+      "feedback_es": "Escribiste «{quote}». Tras «if», en una condición futura real, se usa presente: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. After “if” in a real future condition, use the present: “{correction}”."
+    },
+    {
+      "id": "sig_caus_to_inf",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "name": "“to” after make/let + object",
+      "feedback_es": "Escribiste «{quote}». Después de make/let + objeto va el verbo base, sin «to»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. After make/let + object use the base verb, no “to”: “{correction}”."
+    },
+    {
+      "id": "sig_caus_ing",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "name": "-ing after make/let + object",
+      "feedback_es": "Escribiste «{quote}». Después de make/let + objeto va el verbo base, no -ing: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. After make/let + object use the base verb, not -ing: “{correction}”."
+    },
+    {
+      "id": "sig_wf_wrong_form",
+      "ku_id": "ku_wordfamily_manage",
+      "name": "Wrong word form of manage",
+      "feedback_es": "Escribiste «{quote}». Aquí hace falta otra forma de la familia: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. This slot needs a different form of the family: “{correction}”."
+    },
+    {
+      "id": "sig_agree_be",
+      "ku_id": "ku_agree_verb",
+      "name": "“be + agree” calque",
+      "feedback_es": "Escribiste «{quote}». En inglés «agree» es un verbo directo: se dice «{correction}» (sin verbo to be).",
+      "feedback_en": "You wrote “{quote}”. In English “agree” is a verb: say “{correction}” (do not use “be”)."
+    },
+    {
+      "id": "sig_since_duration",
+      "ku_id": "ku_since_for",
+      "name": "“since” used with duration",
+      "feedback_es": "Escribiste «{quote}». Con una duración o periodo de tiempo se usa «for»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Use “for” with a duration or length of time: “{correction}”."
+    },
+    {
+      "id": "sig_dep_of",
+      "ku_id": "ku_depend_on",
+      "name": "“depend of” preposition calque",
+      "feedback_es": "Escribiste «{quote}». El verbo «depend» se acompaña de «on»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. “Depend” takes “on”: “{correction}”."
+    },
+    {
+      "id": "sig_sc_would_in_if",
+      "ku_id": "ku_second_conditional_past",
+      "name": "would/will in hypothetical if-clause",
+      "feedback_es": "Escribiste «{quote}». En una condición hipotética con «if», el verbo va en pasado simple: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. In a hypothetical if-clause, use the past simple: «{correction}»."
+    },
+    {
+      "id": "sig_used_to_base_inf",
+      "ku_id": "ku_used_to_vs_be_used_to",
+      "name": "base infinitive after be used to",
+      "feedback_es": "Escribiste «{quote}». Para expresar estar acostumbrado, se usa «be used to + -ing»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. To express being accustomed, use “be used to + -ing”: “{correction}”."
+    },
+    {
+      "id": "sig_discuss_about",
+      "ku_id": "ku_discuss_no_about",
+      "name": "“about” after discuss",
+      "feedback_es": "Escribiste «{quote}». El verbo «discuss» es directo y no lleva «about»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. “Discuss” takes a direct object without “about”: “{correction}”."
+    },
+    {
+      "id": "sig_lft_base_verb",
+      "ku_id": "ku_look_forward_to_ing",
+      "name": "base verb after look forward to",
+      "feedback_es": "Escribiste «{quote}». Tras «look forward to» va un gerundio (-ing): «{correction}».",
+      "feedback_en": "You wrote “{quote}”. After “look forward to”, use an -ing gerund: “{correction}”."
+    },
+    {
+      "id": "sig_borrow_lend_confusion",
+      "ku_id": "ku_borrow_vs_lend",
+      "name": "borrow/lend direction inversion",
+      "feedback_es": "Escribiste «{quote}». «Borrow» es tomar prestado y «lend» es prestar/dejar a otro: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. “Borrow” means take temporarily and “lend” means give temporarily: “{correction}”."
+    },
+    {
+      "id": "sig_said_me",
+      "ku_id": "ku_say_vs_tell",
+      "name": "direct personal object after say",
+      "feedback_es": "Escribiste «{quote}». El verbo «say» no lleva pronombre directo: usa «told me» o «said to me»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. “Say” cannot take a direct personal object: use “told me” or “said to me”: “{correction}”."
+    },
+    {
+      "id": "sig_emb_inversion",
+      "ku_id": "ku_embedded_question_order",
+      "name": "inverted order in embedded question",
+      "feedback_es": "Escribiste «{quote}». En preguntas indirectas se usa orden de afirmación (sujeto + verbo): «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Embedded questions take statement word order (subject + verb): “{correction}”."
+    },
+    {
+      "id": "sig_pp_finished_time",
+      "ku_id": "ku_present_perf_vs_past_simple",
+      "name": "present perfect with finished time marker",
+      "feedback_es": "Escribiste «{quote}». Con un marcador de tiempo terminado se usa pasado simple: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. With a finished time expression, use the Past Simple: «{correction}»."
+    },
+    {
+      "id": "sig_dummy_it_omission",
+      "ku_id": "ku_dummy_subject_it",
+      "name": "omitted dummy subject it",
+      "feedback_es": "Escribiste «{quote}». En inglés es obligatorio el sujeto explícito «it»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. English requires an explicit dummy subject «it»: «{correction}»."
+    },
+    {
+      "id": "sig_present_aux_error",
+      "ku_id": "ku_present_aux_do_does",
+      "name": "auxiliary do/does error in present",
+      "feedback_es": "Escribiste «{quote}». En presente simple se usa don't/doesn't + verbo base: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Present simple requires don't/doesn't + base verb: «{correction}»."
+    },
+    {
+      "id": "sig_article_profession_omission",
+      "ku_id": "ku_indefinite_articles_professions",
+      "name": "missing a/an with profession",
+      "feedback_es": "Escribiste «{quote}». Las profesiones singulares exigen «a/an»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Singular professions require «a/an»: «{correction}»."
+    },
+    {
+      "id": "sig_prep_time_error",
+      "ku_id": "ku_prep_in_on_at",
+      "name": "wrong time preposition at/on/in",
+      "feedback_es": "Escribiste «{quote}». Horas van con «at», días con «on», meses con «in»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Clock times take «at», days take «on», months take «in»: «{correction}»."
+    },
+    {
+      "id": "sig_past_simple_error",
+      "ku_id": "ku_past_simple_regular_irregular",
+      "name": "incorrect past simple form",
+      "feedback_es": "Escribiste «{quote}». La forma correcta en pasado simple es «{correction}».",
+      "feedback_en": "You wrote “{quote}”. The correct past simple form is «{correction}»."
+    },
+    {
+      "id": "sig_past_aux_error",
+      "ku_id": "ku_past_aux_did_base",
+      "name": "double past marking after didn't",
+      "feedback_es": "Escribiste «{quote}». Tras «didn't» el verbo principal va en forma base: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. After «didn't» the main verb returns to base form: «{correction}»."
+    },
+    {
+      "id": "sig_future_will_plan_error",
+      "ku_id": "ku_future_will_vs_going_to",
+      "name": "will used for pre-arranged plan",
+      "feedback_es": "Escribiste «{quote}». Para planes e intenciones previas se usa «be going to»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. For planned future intentions, use «be going to»: «{correction}»."
+    },
+    {
+      "id": "sig_modal_bare_error",
+      "ku_id": "ku_modals_can_could_bare",
+      "name": "to-infinitive after modal can/could",
+      "feedback_es": "Escribiste «{quote}». Los modales can/could van seguidos de verbo base directo sin «to»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Can and could take a bare verb without «to»: «{correction}»."
+    },
+    {
+      "id": "sig_comparative_form_error",
+      "ku_id": "ku_comparatives_er_vs_more",
+      "name": "incorrect comparative adjective form",
+      "feedback_es": "Escribiste «{quote}». Los adjetivos cortos forman el comparativo con «-er than»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Short adjectives form the comparative with «-er than»: «{correction}»."
+    },
+    {
+      "id": "sig_verb_pattern_error",
+      "ku_id": "ku_verb_patterns_gerund_inf",
+      "name": "wrong verb complement pattern",
+      "feedback_es": "Escribiste «{quote}». Este verbo exige otro patrón de complemento: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. This verb requires a different complement pattern: «{correction}»."
+    },
+    {
+      "id": "sig_listen_to_error",
+      "ku_id": "ku_listen_to",
+      "name": "missing preposition to after listen",
+      "feedback_es": "Escribiste «{quote}». El verbo «listen» siempre lleva «to»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. The verb «listen» always requires «to»: «{correction}»."
+    },
+    {
+      "id": "sig_perf_continuous_error",
+      "ku_id": "ku_present_perf_continuous",
+      "name": "simple continuous used for duration",
+      "feedback_es": "Escribiste «{quote}». Para duración acumulada en curso se usa «have/has been + -ing»: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. For ongoing duration up to now use «have/has been + -ing»: «{correction}»."
+    },
+    {
+      "id": "sig_modal_deduction_error",
+      "ku_id": "ku_modal_deduction_past_pres",
+      "name": "incorrect deduction modal form",
+      "feedback_es": "Escribiste «{quote}». Para deducción lógica pasada se usa modal + have + participio: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Past logical deduction requires modal + have + participle: «{correction}»."
+    },
+    {
+      "id": "sig_despite_although_error",
+      "ku_id": "ku_connectors_despite_vs_although",
+      "name": "concession connector structure error",
+      "feedback_es": "Escribiste «{quote}». «Despite» va con sustantivo/-ing y «although» con oración completa: «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Use «despite» with a noun/-ing and «although» with a full clause: «{correction}»."
+    },
+    {
+      "id": "sig_passive_form_error",
+      "ku_id": "ku_passive_continuous_perfect",
+      "name": "incorrect passive voice structure",
+      "feedback_es": "Escribiste «{quote}». La forma pasiva correcta es «{correction}».",
+      "feedback_en": "You wrote “{quote}”. The correct passive construction is «{correction}»."
+    },
+    {
+      "id": "sig_third_cond_error",
+      "ku_id": "ku_third_conditional_past_hypo",
+      "name": "would have inside third conditional if-clause",
+      "feedback_es": "Escribiste «{quote}». En la cláusula if del tercer condicional se usa «had + participio» (no would): «{correction}».",
+      "feedback_en": "You wrote “{quote}”. Third conditional if-clauses take «had + past participle» (not would): «{correction}»."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ex_tps_01",
+      "ku": "ku_tps_s",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Executive audit: you are explaining who owns what.",
+      "prompt": "Our finance director ___ (manage) the project budget every quarter.",
+      "accepted": ["manages"],
+      "known_wrong": [{ "text": "manage", "sig": "sig_tps_omission" }]
+    },
+    {
+      "id": "ex_tps_02",
+      "ku": "ku_tps_s",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "You are briefing a colleague before a board meeting.",
+      "prompt": "Ella revisa los contratos antes de cada reunión.",
+      "prompt_lang": "es",
+      "accepted": [
+        "She reviews the contracts before every meeting.",
+        "She reviews the contracts before each meeting.",
+        "She reviews contracts before every meeting.",
+        "She reviews contracts before each meeting."
+      ],
+      "known_wrong": [{ "text": "she review", "sig": "sig_tps_omission" }]
+    },
+    {
+      "id": "ex_tps_03",
+      "ku": "ku_tps_s",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Travel",
+      "difficulty": 1,
+      "situation": "You are reading the terms of a flight booking.",
+      "prompt": "The airline ___ (offer) free rebooking when a flight is cancelled.",
+      "accepted": ["offers"],
+      "known_wrong": [{ "text": "offer", "sig": "sig_tps_omission" }]
+    },
+    {
+      "id": "ex_tps_04",
+      "ku": "ku_tps_s",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "You are updating a release note.",
+      "prompt": "Rewrite starting with “The lead engineer”: The engineers deploy the update every Friday.",
+      "accepted": ["The lead engineer deploys the update every Friday."],
+      "known_wrong": [{ "text": "the lead engineer deploy", "sig": "sig_tps_omission" }]
+    },
+    {
+      "id": "ex_tps_05",
+      "ku": "ku_tps_s",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "You are summarising the other side's position to your team.",
+      "prompt": "El cliente rechaza cualquier cláusula de penalización.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The client rejects any penalty clause.",
+        "The client rejects any penalty clauses.",
+        "The client rejects every penalty clause.",
+        "The client rejects all penalty clauses."
+      ],
+      "known_wrong": [{ "text": "the client reject", "sig": "sig_tps_omission" }]
+    },
+    {
+      "id": "ex_tps_06",
+      "ku": "ku_tps_s",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "You are describing your leadership philosophy in an interview.",
+      "prompt": "Finish the sentence in your own words: “A good team leader always …”",
+      "notes_for_evaluator": "Opportunity exists only if the learner's main verb is an affirmative present-simple with the singular subject (e.g. 'listens'). If they use a modal or the verb be, opportunity=absent."
+    },
+    {
+      "id": "ex_resp_01",
+      "ku": "ku_responsible_for",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "ProjectManagement",
+      "difficulty": 1,
+      "situation": "Kick-off meeting: assigning ownership.",
+      "prompt": "Who is responsible ___ the vendor contracts?",
+      "accepted": ["for"],
+      "known_wrong": [
+        { "text": "of", "sig": "sig_resp_wrong_prep" },
+        { "text": "about", "sig": "sig_resp_wrong_prep" },
+        { "text": "to", "sig": "sig_resp_wrong_prep" },
+        { "text": "in", "sig": "sig_resp_wrong_prep" }
+      ]
+    },
+    {
+      "id": "ex_resp_02",
+      "ku": "ku_responsible_for",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "You are introducing your role to a new client.",
+      "prompt": "Soy responsable de la seguridad de los datos.",
+      "prompt_lang": "es",
+      "accepted": [
+        "I am responsible for data security.",
+        "I'm responsible for data security.",
+        "I am responsible for the security of the data.",
+        "I'm responsible for the security of the data.",
+        "I am responsible for the security of our data.",
+        "I'm responsible for the security of our data."
+      ],
+      "known_wrong": [
+        { "text": "responsible of", "sig": "sig_resp_wrong_prep" },
+        { "text": "responsible about", "sig": "sig_resp_wrong_prep" }
+      ]
+    },
+    {
+      "id": "ex_resp_03",
+      "ku": "ku_responsible_for",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "On-call handover note.",
+      "prompt": "The DevOps team is responsible ___ keeping the servers online.",
+      "accepted": ["for"],
+      "known_wrong": [
+        { "text": "of", "sig": "sig_resp_wrong_prep" },
+        { "text": "about", "sig": "sig_resp_wrong_prep" },
+        { "text": "to", "sig": "sig_resp_wrong_prep" }
+      ]
+    },
+    {
+      "id": "ex_resp_04",
+      "ku": "ku_responsible_for",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "You are assigning tasks in a status meeting.",
+      "prompt": "Finish the sentence: “In this project, Maria is responsible …”",
+      "notes_for_evaluator": "Correct if 'responsible for'. If the learner rewrites without 'responsible', opportunity=absent. 'responsible to <person>' is valid but a different meaning: outcome unclear unless a task is clearly meant."
+    },
+    {
+      "id": "ex_resp_05",
+      "ku": "ku_responsible_for",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "You are drafting a contract summary.",
+      "prompt": "Rewrite using “responsible”: The supplier must pay for any damage during shipping.",
+      "accepted": [
+        "The supplier is responsible for any damage during shipping.",
+        "The supplier is responsible for paying for any damage during shipping.",
+        "The supplier is responsible for any damage that occurs during shipping."
+      ],
+      "known_wrong": [
+        { "text": "responsible of", "sig": "sig_resp_wrong_prep" },
+        { "text": "responsible about", "sig": "sig_resp_wrong_prep" }
+      ]
+    },
+    {
+      "id": "ex_resp_06",
+      "ku": "ku_responsible_for",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 2,
+      "situation": "You are asking for answers at an airport service desk.",
+      "prompt": "¿Quién es responsable de los retrasos en el aeropuerto?",
+      "prompt_lang": "es",
+      "accepted": [
+        "Who is responsible for the delays at the airport?",
+        "Who is responsible for the airport delays?",
+        "Who is responsible for delays at the airport?",
+        "Who's responsible for the delays at the airport?",
+        "Who's responsible for the airport delays?"
+      ],
+      "known_wrong": [
+        { "text": "responsible of", "sig": "sig_resp_wrong_prep" },
+        { "text": "responsible about", "sig": "sig_resp_wrong_prep" }
+      ]
+    },
+    {
+      "id": "ex_fc_01",
+      "ku": "ku_first_conditional_if_present",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Project planning call.",
+      "prompt": "If the clients ___ (approve) the design tomorrow, we will start development on Monday.",
+      "accepted": ["approve"],
+      "known_wrong": [
+        { "text": "will approve", "sig": "sig_fc_will_in_if" },
+        { "text": "would approve", "sig": "sig_fc_will_in_if" }
+      ]
+    },
+    {
+      "id": "ex_fc_02",
+      "ku": "ku_first_conditional_if_present",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Closing a negotiation call.",
+      "prompt": "Si no firmamos el contrato hoy, perderemos la oferta.",
+      "prompt_lang": "es",
+      "accepted": [
+        "If we don't sign the contract today, we will lose the offer.",
+        "If we do not sign the contract today, we will lose the offer.",
+        "If we don't sign the contract today, we'll lose the offer.",
+        "If we do not sign the contract today, we'll lose the offer."
+      ],
+      "known_wrong": [],
+      "notes_for_evaluator": "'if we will not sign' is a violation. 'if we won't sign' can mean refusal (valid, different meaning): outcome unclear unless it is clearly a plain future condition."
+    },
+    {
+      "id": "ex_fc_03",
+      "ku": "ku_first_conditional_if_present",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Travel",
+      "difficulty": 1,
+      "situation": "Planning a business trip.",
+      "prompt": "If the flight ___ (be) delayed, we will miss the connection.",
+      "accepted": ["is"],
+      "known_wrong": [
+        { "text": "will be", "sig": "sig_fc_will_in_if" },
+        { "text": "would be", "sig": "sig_fc_will_in_if" }
+      ]
+    },
+    {
+      "id": "ex_fc_04",
+      "ku": "ku_first_conditional_if_present",
+      "secondary_ku_ids": ["ku_tps_s"],
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "You are summarising a risk in a steering committee.",
+      "prompt": "Combine into one sentence starting with “If”: The scope may grow. We will need more budget.",
+      "accepted": [
+        "If the scope grows, we will need more budget.",
+        "If the scope grows, we'll need more budget."
+      ],
+      "known_wrong": [
+        { "text": "if the scope will grow", "sig": "sig_fc_will_in_if" },
+        { "text": "if the scope grow", "sig": "sig_tps_omission" }
+      ]
+    },
+    {
+      "id": "ex_fc_05",
+      "ku": "ku_first_conditional_if_present",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Documenting an alerting rule.",
+      "prompt": "Finish the sentence: “The system will send an alert if …”",
+      "notes_for_evaluator": "Target is the tense in the if-clause. will/would in the if-clause expressing a plain future condition = violation. If no if-clause is produced, opportunity=absent."
+    },
+    {
+      "id": "ex_fc_06",
+      "ku": "ku_first_conditional_if_present",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 4,
+      "situation": "Sending a status update.",
+      "prompt": "Si los ingenieros terminan antes del viernes, entregaremos el informe el lunes.",
+      "prompt_lang": "es",
+      "accepted": [
+        "If the engineers finish before Friday, we will deliver the report on Monday.",
+        "If the engineers finish before Friday, we'll deliver the report on Monday.",
+        "If the engineers finish before Friday, we will deliver the report Monday.",
+        "If the engineers finish before Friday, we'll deliver the report Monday."
+      ],
+      "known_wrong": [{ "text": "if the engineers will finish", "sig": "sig_fc_will_in_if" }]
+    },
+    {
+      "id": "ex_caus_01",
+      "ku": "ku_causative_make_let_bare_inf",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 1,
+      "situation": "Describing your manager to a new hire.",
+      "prompt": "Our manager never lets us ___ (work) on weekends.",
+      "accepted": ["work"],
+      "known_wrong": [
+        { "text": "to work", "sig": "sig_caus_to_inf" },
+        { "text": "working", "sig": "sig_caus_ing" }
+      ]
+    },
+    {
+      "id": "ex_caus_02",
+      "ku": "ku_causative_make_let_bare_inf",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Recounting yesterday's meeting.",
+      "prompt": "El director nos hizo repetir la presentación.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The director made us repeat the presentation.",
+        "The director made us do the presentation again.",
+        "The director made us give the presentation again."
+      ],
+      "known_wrong": [
+        { "text": "made us to", "sig": "sig_caus_to_inf" },
+        { "text": "made us repeating", "sig": "sig_caus_ing" }
+      ]
+    },
+    {
+      "id": "ex_caus_03",
+      "ku": "ku_causative_make_let_bare_inf",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Explaining an IT policy.",
+      "prompt": "The new policy makes employees ___ (change) their passwords every month.",
+      "accepted": ["change"],
+      "known_wrong": [
+        { "text": "to change", "sig": "sig_caus_to_inf" },
+        { "text": "changing", "sig": "sig_caus_ing" }
+      ]
+    },
+    {
+      "id": "ex_caus_04",
+      "ku": "ku_causative_make_let_bare_inf",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "Summarising contract terms.",
+      "prompt": "Rewrite using “let”: The contract allows us to cancel within 30 days.",
+      "accepted": ["The contract lets us cancel within 30 days."],
+      "known_wrong": [{ "text": "lets us to cancel", "sig": "sig_caus_to_inf" }]
+    },
+    {
+      "id": "ex_caus_05",
+      "ku": "ku_causative_make_let_bare_inf",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Writing a review after a bad trip.",
+      "prompt": "Finish the sentence with a verb after “make”: “Long delays at the airport make passengers …”",
+      "notes_for_evaluator": "Opportunity exists only if a verb follows 'make + object'. Adjective completions ('make passengers angry') → opportunity=absent."
+    },
+    {
+      "id": "ex_caus_06",
+      "ku": "ku_causative_make_let_bare_inf",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "situation": "Advising a colleague before a presentation.",
+      "prompt": "No dejes que los datos te confundan.",
+      "prompt_lang": "es",
+      "accepted": [
+        "Don't let the data confuse you.",
+        "Do not let the data confuse you.",
+        "Don't let data confuse you.",
+        "Do not let data confuse you."
+      ],
+      "known_wrong": [
+        { "text": "let the data to confuse", "sig": "sig_caus_to_inf" },
+        { "text": "let the data confusing", "sig": "sig_caus_ing" }
+      ]
+    },
+    {
+      "id": "ex_wf_01",
+      "ku": "ku_wordfamily_manage",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "facet": "management",
+      "situation": "Writing a strategy memo.",
+      "prompt": "Effective ___ of resources is essential for growth. (manage)",
+      "accepted": ["management"],
+      "known_wrong": [
+        { "text": "manage", "sig": "sig_wf_wrong_form" },
+        { "text": "manager", "sig": "sig_wf_wrong_form" }
+      ]
+    },
+    {
+      "id": "ex_wf_02",
+      "ku": "ku_wordfamily_manage",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "facet": "manageable",
+      "situation": "Assessing team capacity.",
+      "prompt": "The workload is heavy but ___ if we split the tasks. (manage)",
+      "accepted": ["manageable"],
+      "known_wrong": [
+        { "text": "manage", "sig": "sig_wf_wrong_form" },
+        { "text": "management", "sig": "sig_wf_wrong_form" },
+        { "text": "manager", "sig": "sig_wf_wrong_form" }
+      ],
+      "known_typos": [{ "typo": "managable", "fix": "manageable" }]
+    },
+    {
+      "id": "ex_wf_03",
+      "ku": "ku_wordfamily_manage",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 1,
+      "facet": "manager",
+      "situation": "Announcing a promotion.",
+      "prompt": "She became the regional ___ last year. (manage)",
+      "accepted": ["manager"],
+      "known_wrong": [
+        { "text": "management", "sig": "sig_wf_wrong_form" },
+        { "text": "manage", "sig": "sig_wf_wrong_form" }
+      ]
+    },
+    {
+      "id": "ex_wf_04",
+      "ku": "ku_wordfamily_manage",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "facet": "management",
+      "situation": "Setting priorities for the quarter.",
+      "prompt": "Necesitamos mejorar la gestión del tiempo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We need to improve time management.",
+        "We need to improve our time management.",
+        "We need to improve the management of time."
+      ],
+      "known_wrong": [{ "text": "time manage", "sig": "sig_wf_wrong_form" }]
+    },
+    {
+      "id": "ex_wf_05",
+      "ku": "ku_wordfamily_manage",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "facet": "manageable",
+      "situation": "Presenting a risk assessment.",
+      "prompt": "Rewrite using an adjective from “manage”: This risk can be controlled.",
+      "accepted": [
+        "This risk is manageable.",
+        "This risk is quite manageable.",
+        "The risk is manageable."
+      ],
+      "known_wrong": [{ "text": "this risk is manage", "sig": "sig_wf_wrong_form" }],
+      "known_typos": [{ "typo": "managable", "fix": "manageable" }]
+    },
+    {
+      "id": "ex_wf_06",
+      "ku": "ku_wordfamily_manage",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 2,
+      "facet": "management",
+      "situation": "Reading a project charter.",
+      "prompt": "The ___ team reviews the roadmap every week. (manage)",
+      "accepted": ["management"],
+      "known_wrong": [
+        { "text": "manage", "sig": "sig_wf_wrong_form" },
+        { "text": "manager", "sig": "sig_wf_wrong_form" }
+      ]
+    },
+    {
+      "id": "ex_agr_01",
+      "ku": "ku_agree_verb",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Reviewing a proposed schedule with tech leads.",
+      "prompt": "We ___ (agree) with the timeline proposed by engineering.",
+      "accepted": ["agree"],
+      "known_wrong": [{ "text": "are agree", "sig": "sig_agree_be" }]
+    },
+    {
+      "id": "ex_agr_02",
+      "ku": "ku_agree_verb",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Stating your firm's position in a contract dispute.",
+      "prompt": "No estamos de acuerdo con las condiciones actuales.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We don't agree with the current conditions.",
+        "We do not agree with the current conditions.",
+        "We disagree with the current conditions."
+      ],
+      "known_wrong": [
+        { "text": "are not agree", "sig": "sig_agree_be" },
+        { "text": "aren't agree", "sig": "sig_agree_be" }
+      ]
+    },
+    {
+      "id": "ex_agr_03",
+      "ku": "ku_agree_verb",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Writing an investor relations update.",
+      "prompt": "Rewrite starting with “The shareholders”: The shareholders are in agreement with the merger.",
+      "accepted": [
+        "The shareholders agree with the merger.",
+        "The shareholders agree to the merger."
+      ],
+      "known_wrong": [{ "text": "the shareholders are agree", "sig": "sig_agree_be" }]
+    },
+    {
+      "id": "ex_agr_04",
+      "ku": "ku_agree_verb",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 1,
+      "situation": "Internal team survey readout.",
+      "prompt": "Most department heads ___ (agree) that communication needs to improve.",
+      "accepted": ["agree"],
+      "known_wrong": [{ "text": "are agree", "sig": "sig_agree_be" }]
+    },
+    {
+      "id": "ex_agr_05",
+      "ku": "ku_agree_verb",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "situation": "Coordinating next steps before the company townhall.",
+      "prompt": "Si el equipo está de acuerdo, presentaremos el plan el martes.",
+      "prompt_lang": "es",
+      "accepted": [
+        "If the team agrees, we will present the plan on Tuesday.",
+        "If the team agrees, we'll present the plan on Tuesday.",
+        "If the team agrees, we will present the plan Tuesday.",
+        "If the team agrees, we'll present the plan Tuesday."
+      ],
+      "known_wrong": [{ "text": "is agree", "sig": "sig_agree_be" }]
+    },
+    {
+      "id": "ex_agr_06",
+      "ku": "ku_agree_verb",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Documenting team alignment in an RFC document.",
+      "prompt": "Finish the sentence: “After reviewing the architecture specs, our engineers …”",
+      "notes_for_evaluator": "Target is finite use of agree without auxiliary be. 'are agree' is a target violation."
+    },
+    {
+      "id": "ex_sf_01",
+      "ku": "ku_since_for",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Vendor contract renewal announcement.",
+      "prompt": "We have partnered with that supplier ___ five years.",
+      "accepted": ["for"],
+      "known_wrong": [{ "text": "since", "sig": "sig_since_duration" }]
+    },
+    {
+      "id": "ex_sf_02",
+      "ku": "ku_since_for",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Describing system uptime history.",
+      "prompt": "The cloud platform has been operational ___ 2018.",
+      "accepted": ["since"],
+      "known_wrong": [{ "text": "for", "sig": "sig_since_duration" }]
+    },
+    {
+      "id": "ex_sf_03",
+      "ku": "ku_since_for",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Explaining leadership tenure to new board members.",
+      "prompt": "Ella ha dirigido el departamento desde hace seis meses.",
+      "prompt_lang": "es",
+      "accepted": [
+        "She has led the department for six months.",
+        "She's led the department for six months.",
+        "She has managed the department for six months.",
+        "She's managed the department for six months."
+      ],
+      "known_wrong": [{ "text": "since six months", "sig": "sig_since_duration" }]
+    },
+    {
+      "id": "ex_sf_04",
+      "ku": "ku_since_for",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Sprint retrospective progress summary.",
+      "prompt": "Rewrite using “for”: We began working on this proposal three weeks ago and are still working on it.",
+      "accepted": [
+        "We have been working on this proposal for three weeks.",
+        "We've been working on this proposal for three weeks."
+      ],
+      "known_wrong": [{ "text": "since three weeks", "sig": "sig_since_duration" }]
+    },
+    {
+      "id": "ex_sf_05",
+      "ku": "ku_since_for",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "situation": "Reporting delayed deliverables in a status memo.",
+      "prompt": "El proyecto ha estado detenido desde marzo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The project has been on hold since March.",
+        "The project has been stopped since March."
+      ],
+      "known_wrong": [{ "text": "for March", "sig": "sig_since_duration" }]
+    },
+    {
+      "id": "ex_sf_06",
+      "ku": "ku_since_for",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Introducing your background during an international conference dinner.",
+      "prompt": "Finish the sentence: “I have lived in this city …”",
+      "notes_for_evaluator": "Check that a duration of time takes 'for' (e.g. 'for ten years') or a specific point in time takes 'since' ('since 2015'). Using 'since' with a duration is a target violation."
+    },
+    {
+      "id": "ex_dep_01",
+      "ku": "ku_depend_on",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Quarterly earnings forecast briefing.",
+      "prompt": "The final budget will depend ___ Q4 revenues.",
+      "accepted": ["on", "upon"],
+      "known_wrong": [{ "text": "of", "sig": "sig_dep_of" }]
+    },
+    {
+      "id": "ex_dep_02",
+      "ku": "ku_depend_on",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Advising your partner on deal progress.",
+      "prompt": "Todo depende de la aprobación del cliente.",
+      "prompt_lang": "es",
+      "accepted": [
+        "Everything depends on the client's approval.",
+        "Everything depends on client approval.",
+        "All depends on the client's approval."
+      ],
+      "known_wrong": [
+        { "text": "depends of", "sig": "sig_dep_of" },
+        { "text": "depend of", "sig": "sig_dep_of" }
+      ]
+    },
+    {
+      "id": "ex_dep_03",
+      "ku": "ku_depend_on",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Drafting service level agreements (SLAs).",
+      "prompt": "Our microservices depend ___ a resilient network connection.",
+      "accepted": ["on", "upon"],
+      "known_wrong": [{ "text": "of", "sig": "sig_dep_of" }]
+    },
+    {
+      "id": "ex_dep_04",
+      "ku": "ku_depend_on",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Strategic executive summary.",
+      "prompt": "Rewrite using “depends”: The success of this initiative is contingent on team alignment.",
+      "accepted": ["The success of this initiative depends on team alignment."],
+      "known_wrong": [{ "text": "depends of", "sig": "sig_dep_of" }]
+    },
+    {
+      "id": "ex_dep_05",
+      "ku": "ku_depend_on",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Aligning on core engineering dependencies.",
+      "prompt": "No podemos depender del soporte técnico externo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We cannot depend on external technical support.",
+        "We can't depend on external technical support."
+      ],
+      "known_wrong": [{ "text": "depend of", "sig": "sig_dep_of" }]
+    },
+    {
+      "id": "ex_dep_06",
+      "ku": "ku_depend_on",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Presenting risk factors to venture investors.",
+      "prompt": "Finish the sentence: “Whether we meet the quarterly targets will depend …”",
+      "notes_for_evaluator": "Target is 'depend on'. 'depend of' is a violation. If rephrased without depend, opportunity=absent."
+    },
+    {
+      "id": "ex_sc_01",
+      "ku": "ku_second_conditional_past",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Strategic growth planning meeting.",
+      "prompt": "If we ___ (have) additional funding, we would expand into the Asian market.",
+      "accepted": ["had"],
+      "known_wrong": [
+        { "text": "would have", "sig": "sig_sc_would_in_if" },
+        { "text": "will have", "sig": "sig_sc_would_in_if" }
+      ]
+    },
+    {
+      "id": "ex_sc_02",
+      "ku": "ku_second_conditional_past",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "Debating commercial terms with opposing counsel.",
+      "prompt": "Si ellos ofrecieran mejores condiciones, firmaríamos el acuerdo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "If they offered better terms, we would sign the agreement.",
+        "If they offered better conditions, we would sign the agreement.",
+        "If they offered better terms, we'd sign the agreement.",
+        "If they offered better conditions, we'd sign the agreement."
+      ],
+      "known_wrong": [
+        { "text": "if they would offer", "sig": "sig_sc_would_in_if" },
+        { "text": "if they will offer", "sig": "sig_sc_would_in_if" }
+      ]
+    },
+    {
+      "id": "ex_sc_03",
+      "ku": "ku_second_conditional_past",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Architectural risk assessment.",
+      "prompt": "If the infrastructure ___ (be) more scalable, downtime would decrease by 80%.",
+      "accepted": ["were", "was"],
+      "known_wrong": [
+        { "text": "would be", "sig": "sig_sc_would_in_if" },
+        { "text": "will be", "sig": "sig_sc_would_in_if" }
+      ]
+    },
+    {
+      "id": "ex_sc_04",
+      "ku": "ku_second_conditional_past",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Discussing company organizational structure.",
+      "prompt": "Rewrite starting with “If I were”: I am not the CEO, so I cannot restructure the divisions.",
+      "accepted": [
+        "If I were the CEO, I would restructure the divisions.",
+        "If I were the CEO, I'd restructure the divisions."
+      ],
+      "known_wrong": [
+        { "text": "if I would be the ceo", "sig": "sig_sc_would_in_if" }
+      ]
+    },
+    {
+      "id": "ex_sc_05",
+      "ku": "ku_second_conditional_past",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Reviewing business analytics before launch.",
+      "prompt": "Si tuviéramos más datos, tomaríamos una decisión más rápida.",
+      "prompt_lang": "es",
+      "accepted": [
+        "If we had more data, we would make a faster decision.",
+        "If we had more data, we'd make a faster decision."
+      ],
+      "known_wrong": [
+        { "text": "if we would have more data", "sig": "sig_sc_would_in_if" }
+      ]
+    },
+    {
+      "id": "ex_sc_06",
+      "ku": "ku_second_conditional_past",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Assessing project team velocity in a retro.",
+      "prompt": "Finish the sentence: “Our delivery speed would double if …”",
+      "notes_for_evaluator": "Hypothetical if-clause requires past tense (e.g. 'if we hired more engineers'). 'would' inside if-clause is a violation."
+    },
+    {
+      "id": "ex_ut_01",
+      "ku": "ku_used_to_vs_be_used_to",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Explaining on-call duties to a junior engineer.",
+      "prompt": "Our engineers are used to ___ (deploy) hotfixes during production outages.",
+      "accepted": ["deploying"],
+      "known_wrong": [
+        { "text": "deploy", "sig": "sig_used_to_base_inf" }
+      ]
+    },
+    {
+      "id": "ex_ut_02",
+      "ku": "ku_used_to_vs_be_used_to",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Interviewing for an international management position.",
+      "prompt": "Estoy acostumbrado a gestionar equipos remotos.",
+      "prompt_lang": "es",
+      "accepted": [
+        "I am used to managing remote teams.",
+        "I'm used to managing remote teams."
+      ],
+      "known_wrong": [
+        { "text": "used to manage remote teams", "sig": "sig_used_to_base_inf" },
+        { "text": "am used to manage remote teams", "sig": "sig_used_to_base_inf" }
+      ]
+    },
+    {
+      "id": "ex_ut_03",
+      "ku": "ku_used_to_vs_be_used_to",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Travel",
+      "difficulty": 1,
+      "situation": "Discussing business travel comfort.",
+      "prompt": "She travels weekly, so she is used to ___ (sleep) on planes.",
+      "accepted": ["sleeping"],
+      "known_wrong": [
+        { "text": "sleep", "sig": "sig_used_to_base_inf" }
+      ]
+    },
+    {
+      "id": "ex_ut_04",
+      "ku": "ku_used_to_vs_be_used_to",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 3,
+      "situation": "Managing expectations in a high-growth environment.",
+      "prompt": "Rewrite using “used to”: We are accustomed to tight deadlines in this industry.",
+      "accepted": [
+        "We are used to tight deadlines in this industry.",
+        "We're used to tight deadlines in this industry."
+      ],
+      "known_wrong": []
+    },
+    {
+      "id": "ex_ut_05",
+      "ku": "ku_used_to_vs_be_used_to",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Discussing team workload after an executive update.",
+      "prompt": "El equipo no está acostumbrado a trabajar bajo tanta presión.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The team is not used to working under so much pressure.",
+        "The team isn't used to working under so much pressure."
+      ],
+      "known_wrong": [
+        { "text": "used to work under", "sig": "sig_used_to_base_inf" },
+        { "text": "is not used to work", "sig": "sig_used_to_base_inf" }
+      ]
+    },
+    {
+      "id": "ex_ut_06",
+      "ku": "ku_used_to_vs_be_used_to",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Introducing a keynote speaker.",
+      "prompt": "Finish the sentence: “As a senior executive, she is used to …”",
+      "notes_for_evaluator": "Requires gerund (-ing) or noun (e.g. 'speaking in public', 'handling tough questions'). Base verb is a violation."
+    },
+    {
+      "id": "ex_dis_01",
+      "ku": "ku_discuss_no_about",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Setting the agenda for tomorrow's standup.",
+      "prompt": "We will ___ (discuss) the quarterly results at tomorrow's sync.",
+      "accepted": ["discuss"],
+      "known_wrong": [
+        { "text": "discuss about", "sig": "sig_discuss_about" }
+      ]
+    },
+    {
+      "id": "ex_dis_02",
+      "ku": "ku_discuss_no_about",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Clarifying contract review priorities.",
+      "prompt": "Tenemos que discutir las cláusulas del contrato.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We have to discuss the contract clauses.",
+        "We need to discuss the contract clauses.",
+        "We must discuss the contract clauses."
+      ],
+      "known_wrong": [
+        { "text": "discuss about the contract clauses", "sig": "sig_discuss_about" },
+        { "text": "discuss about contract clauses", "sig": "sig_discuss_about" }
+      ]
+    },
+    {
+      "id": "ex_dis_03",
+      "ku": "ku_discuss_no_about",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 1,
+      "situation": "Announcing a strategic board session.",
+      "prompt": "The board met yesterday to ___ (discuss) executive succession.",
+      "accepted": ["discuss"],
+      "known_wrong": [
+        { "text": "discuss about", "sig": "sig_discuss_about" }
+      ]
+    },
+    {
+      "id": "ex_dis_04",
+      "ku": "ku_discuss_no_about",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 3,
+      "situation": "Scheduling an introductory enterprise partnership call.",
+      "prompt": "Rewrite using “discuss”: Let's talk about the strategic partnership.",
+      "accepted": [
+        "Let's discuss the strategic partnership.",
+        "Let us discuss the strategic partnership."
+      ],
+      "known_wrong": [
+        { "text": "discuss about the strategic partnership", "sig": "sig_discuss_about" }
+      ]
+    },
+    {
+      "id": "ex_dis_05",
+      "ku": "ku_discuss_no_about",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 2,
+      "situation": "Presenting quarterly findings to stakeholders.",
+      "prompt": "Discutiremos los problemas de rendimiento en la siguiente diapositiva.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We will discuss the performance issues on the next slide.",
+        "We'll discuss the performance issues on the next slide."
+      ],
+      "known_wrong": [
+        { "text": "discuss about the performance issues", "sig": "sig_discuss_about" }
+      ]
+    },
+    {
+      "id": "ex_dis_06",
+      "ku": "ku_discuss_no_about",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Architecture design review documentation.",
+      "prompt": "Finish the sentence: “In the engineering review, the architects will discuss …”",
+      "notes_for_evaluator": "Target is direct object after discuss. 'discuss about' is a target violation."
+    },
+    {
+      "id": "ex_lft_01",
+      "ku": "ku_look_forward_to_ing",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Formal client onboarding note.",
+      "prompt": "I look forward to ___ (collaborate) with your team on this rollout.",
+      "accepted": ["collaborating"],
+      "known_wrong": [
+        { "text": "collaborate", "sig": "sig_lft_base_verb" }
+      ]
+    },
+    {
+      "id": "ex_lft_02",
+      "ku": "ku_look_forward_to_ing",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Connecting with a colleague before an annual conference.",
+      "prompt": "Espero con ilusión conocerte en la conferencia.",
+      "prompt_lang": "es",
+      "accepted": [
+        "I look forward to meeting you at the conference.",
+        "I'm looking forward to meeting you at the conference."
+      ],
+      "known_wrong": [
+        { "text": "look forward to meet you", "sig": "sig_lft_base_verb" },
+        { "text": "looking forward to meet you", "sig": "sig_lft_base_verb" }
+      ]
+    },
+    {
+      "id": "ex_lft_03",
+      "ku": "ku_look_forward_to_ing",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Sending release candidate notes to beta testers.",
+      "prompt": "We look forward to ___ (receive) your feedback on the release candidate.",
+      "accepted": ["receiving"],
+      "known_wrong": [
+        { "text": "receive", "sig": "sig_lft_base_verb" }
+      ]
+    },
+    {
+      "id": "ex_lft_04",
+      "ku": "ku_look_forward_to_ing",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Welcoming executive leadership.",
+      "prompt": "Rewrite using “looking forward to”: We eagerly anticipate working with the new director.",
+      "accepted": [
+        "We are looking forward to working with the new director.",
+        "We're looking forward to working with the new director."
+      ],
+      "known_wrong": [
+        { "text": "looking forward to work with", "sig": "sig_lft_base_verb" }
+      ]
+    },
+    {
+      "id": "ex_lft_05",
+      "ku": "ku_look_forward_to_ing",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Follow-up email after a vendor presentation.",
+      "prompt": "Esperamos recibir su propuesta final pronto.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We look forward to receiving your final proposal soon.",
+        "We're looking forward to receiving your final proposal soon."
+      ],
+      "known_wrong": [
+        { "text": "look forward to receive", "sig": "sig_lft_base_verb" }
+      ]
+    },
+    {
+      "id": "ex_lft_06",
+      "ku": "ku_look_forward_to_ing",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Follow-up note to prospective conference partners.",
+      "prompt": "Finish the formal email sign-off: “I look forward to …”",
+      "notes_for_evaluator": "Requires gerund -ing (e.g. 'hearing from you soon', 'reviewing the deck'). Base verb is a violation."
+    },
+    {
+      "id": "ex_bl_01",
+      "ku": "ku_borrow_vs_lend",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Urgent technical preparation before a boardroom presentation.",
+      "prompt": "Can I ___ (borrow) your projector adapter for the client pitch?",
+      "accepted": ["borrow"],
+      "known_wrong": [
+        { "text": "lend", "sig": "sig_borrow_lend_confusion" }
+      ]
+    },
+    {
+      "id": "ex_bl_02",
+      "ku": "ku_borrow_vs_lend",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Reviewing financial terms with company founders.",
+      "prompt": "El banco se negó a prestarnos el capital adicional.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The bank refused to lend us the additional capital.",
+        "The bank refused to loan us the additional capital."
+      ],
+      "known_wrong": [
+        { "text": "refused to borrow us", "sig": "sig_borrow_lend_confusion" }
+      ]
+    },
+    {
+      "id": "ex_bl_03",
+      "ku": "ku_borrow_vs_lend",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "QA mobile device testing handover.",
+      "prompt": "Could you ___ (lend) me the test device until this afternoon?",
+      "accepted": ["lend"],
+      "known_wrong": [
+        { "text": "borrow", "sig": "sig_borrow_lend_confusion" }
+      ]
+    },
+    {
+      "id": "ex_bl_04",
+      "ku": "ku_borrow_vs_lend",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 3,
+      "situation": "Staff augmentation discussion between project leads.",
+      "prompt": "Rewrite starting with “Can we borrow”: Can you lend us two developers for the sprint?",
+      "accepted": [
+        "Can we borrow two developers for the sprint?"
+      ],
+      "known_wrong": [
+        { "text": "can we lend two developers", "sig": "sig_borrow_lend_confusion" }
+      ]
+    },
+    {
+      "id": "ex_bl_05",
+      "ku": "ku_borrow_vs_lend",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Forgotten badge at office security.",
+      "prompt": "¿Me prestas tu tarjeta de acceso?",
+      "prompt_lang": "es",
+      "accepted": [
+        "Can you lend me your access badge?",
+        "Could you lend me your access badge?",
+        "Can you lend me your access card?",
+        "Could you lend me your access card?"
+      ],
+      "known_wrong": [
+        { "text": "can you borrow me", "sig": "sig_borrow_lend_confusion" },
+        { "text": "could you borrow me", "sig": "sig_borrow_lend_confusion" }
+      ]
+    },
+    {
+      "id": "ex_bl_06",
+      "ku": "ku_borrow_vs_lend",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Lost equipment during executive business travel.",
+      "prompt": "Finish the sentence: “I forgot my charger at the hotel, so I had to …”",
+      "notes_for_evaluator": "Requires 'borrow a charger' (from someone). 'lend a charger' in this context is a violation."
+    },
+    {
+      "id": "ex_st_01",
+      "ku": "ku_say_vs_tell",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 1,
+      "situation": "Debriefing team on quarterly executive feedback.",
+      "prompt": "The manager ___ (told) the team that the release was approved.",
+      "accepted": ["told"],
+      "known_wrong": [
+        { "text": "said", "sig": "sig_said_me" }
+      ]
+    },
+    {
+      "id": "ex_st_02",
+      "ku": "ku_say_vs_tell",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Explaining schedule changes to colleagues.",
+      "prompt": "Ella me dijo que la reunión se había cancelado.",
+      "prompt_lang": "es",
+      "accepted": [
+        "She told me that the meeting had been cancelled.",
+        "She told me the meeting was cancelled.",
+        "She told me that the meeting was cancelled."
+      ],
+      "known_wrong": [
+        { "text": "she said me that", "sig": "sig_said_me" },
+        { "text": "she said me the", "sig": "sig_said_me" }
+      ]
+    },
+    {
+      "id": "ex_st_03",
+      "ku": "ku_say_vs_tell",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Negotiation",
+      "difficulty": 1,
+      "situation": "Reviewing client reaction to proposed pricing.",
+      "prompt": "What did the client ___ (say) when you presented the quote?",
+      "accepted": ["say"],
+      "known_wrong": [
+        { "text": "tell", "sig": "sig_said_me" }
+      ]
+    },
+    {
+      "id": "ex_st_04",
+      "ku": "ku_say_vs_tell",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 3,
+      "situation": "Summarizing audit report findings.",
+      "prompt": "Rewrite using “told”: The auditor said to us that compliance standards were met.",
+      "accepted": [
+        "The auditor told us that compliance standards were met.",
+        "The auditor told us compliance standards were met."
+      ],
+      "known_wrong": [
+        { "text": "the auditor said us", "sig": "sig_said_me" }
+      ]
+    },
+    {
+      "id": "ex_st_05",
+      "ku": "ku_say_vs_tell",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Relaying infrastructure readiness to PM.",
+      "prompt": "El ingeniero jefe nos dijo que el servidor estaba listo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The lead engineer told us that the server was ready.",
+        "The lead engineer told us the server was ready."
+      ],
+      "known_wrong": [
+        { "text": "the lead engineer said us", "sig": "sig_said_me" },
+        { "text": "lead engineer said us", "sig": "sig_said_me" }
+      ]
+    },
+    {
+      "id": "ex_st_06",
+      "ku": "ku_say_vs_tell",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Live enterprise architecture demo introduction.",
+      "prompt": "Finish the sentence: “Before starting the demo, the lead architect …”",
+      "notes_for_evaluator": "If reporting speech to listeners, check 'told us / told the audience' or 'said that'. 'said us' is a target violation."
+    },
+    {
+      "id": "ex_emb_01",
+      "ku": "ku_embedded_question_order",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Checking schedule details politely.",
+      "prompt": "Could you tell me what time the meeting ___ (start)?",
+      "accepted": ["starts"],
+      "known_wrong": [
+        { "text": "does it start", "sig": "sig_emb_inversion" },
+        { "text": "does start", "sig": "sig_emb_inversion" }
+      ]
+    },
+    {
+      "id": "ex_emb_02",
+      "ku": "ku_embedded_question_order",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 3,
+      "situation": "Asking infrastructure team about disaster recovery storage.",
+      "prompt": "¿Sabes dónde está guardada la base de datos?",
+      "prompt_lang": "es",
+      "accepted": [
+        "Do you know where the database is stored?",
+        "Do you know where the database is located?"
+      ],
+      "known_wrong": [
+        { "text": "where is stored the database", "sig": "sig_emb_inversion" },
+        { "text": "where is the database stored", "sig": "sig_emb_inversion" }
+      ]
+    },
+    {
+      "id": "ex_emb_03",
+      "ku": "ku_embedded_question_order",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Travel",
+      "difficulty": 1,
+      "situation": "Inquiring about transport expenses at the hotel reception.",
+      "prompt": "I would like to know how much the airport taxi ___ (cost).",
+      "accepted": ["costs"],
+      "known_wrong": [
+        { "text": "does it cost", "sig": "sig_emb_inversion" },
+        { "text": "does cost", "sig": "sig_emb_inversion" }
+      ]
+    },
+    {
+      "id": "ex_emb_04",
+      "ku": "ku_embedded_question_order",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 3,
+      "situation": "Polite email to external auditors.",
+      "prompt": "Rewrite as indirect question starting with “Please confirm”: When will the audit begin?",
+      "accepted": [
+        "Please confirm when the audit will begin."
+      ],
+      "known_wrong": [
+        { "text": "when will begin the audit", "sig": "sig_emb_inversion" },
+        { "text": "when will the audit begin", "sig": "sig_emb_inversion" }
+      ]
+    },
+    {
+      "id": "ex_emb_05",
+      "ku": "ku_embedded_question_order",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Analyzing a rejected sales proposal with account directors.",
+      "prompt": "No estoy seguro de por qué el cliente rechazó la oferta.",
+      "prompt_lang": "es",
+      "accepted": [
+        "I am not sure why the client rejected the offer.",
+        "I'm not sure why the client rejected the offer."
+      ],
+      "known_wrong": [
+        { "text": "why did the client reject", "sig": "sig_emb_inversion" },
+        { "text": "why rejected the client", "sig": "sig_emb_inversion" }
+      ]
+    },
+    {
+      "id": "ex_emb_06",
+      "ku": "ku_embedded_question_order",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Requesting scope change clarification politely.",
+      "prompt": "Finish the question politely: “Could you clarify why the stakeholders …”",
+      "notes_for_evaluator": "Target is subject-verb order (e.g. 'why the stakeholders changed the scope'). Auxiliary inversion ('why did the stakeholders change') is a violation."
+    },
+    {
+      "id": "ex_pp_01",
+      "ku": "ku_present_perf_vs_past_simple",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Corporate finance announcement.",
+      "prompt": "The executive board ___ (approve) the budget yesterday.",
+      "accepted": ["approved"],
+      "known_wrong": [
+        { "text": "has approved", "sig": "sig_pp_finished_time" },
+        { "text": "have approved", "sig": "sig_pp_finished_time" }
+      ]
+    },
+    {
+      "id": "ex_pp_02",
+      "ku": "ku_present_perf_vs_past_simple",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "situation": "Status report to client on completed milestones.",
+      "prompt": "Completamos la fase de pruebas hace tres días.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We completed the testing phase three days ago.",
+        "We finished the testing phase three days ago."
+      ],
+      "known_wrong": [
+        { "text": "have completed the testing phase three days ago", "sig": "sig_pp_finished_time" },
+        { "text": "have finished the testing phase three days ago", "sig": "sig_pp_finished_time" }
+      ]
+    },
+    {
+      "id": "ex_pp_03",
+      "ku": "ku_present_perf_vs_past_simple",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Incident management post-mortem.",
+      "prompt": "Our engineers ___ (deploy) the security patch last night.",
+      "accepted": ["deployed"],
+      "known_wrong": [
+        { "text": "have deployed", "sig": "sig_pp_finished_time" },
+        { "text": "has deployed", "sig": "sig_pp_finished_time" }
+      ]
+    },
+    {
+      "id": "ex_pp_04",
+      "ku": "ku_present_perf_vs_past_simple",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Legal milestone recap.",
+      "prompt": "Rewrite in the past: We sign the agreement today. (change to: last Friday)",
+      "accepted": [
+        "We signed the agreement last Friday."
+      ],
+      "known_wrong": [
+        { "text": "we have signed the agreement last friday", "sig": "sig_pp_finished_time" }
+      ]
+    },
+    {
+      "id": "ex_pp_05",
+      "ku": "ku_present_perf_vs_past_simple",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Weekly sync update on client communication.",
+      "prompt": "El cliente envió las observaciones ayer por la tarde.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The client sent the observations yesterday afternoon.",
+        "The client sent the feedback yesterday afternoon."
+      ],
+      "known_wrong": [
+        { "text": "has sent the observations yesterday", "sig": "sig_pp_finished_time" },
+        { "text": "have sent the observations yesterday", "sig": "sig_pp_finished_time" }
+      ]
+    },
+    {
+      "id": "ex_pp_06",
+      "ku": "ku_present_perf_vs_past_simple",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Recounting last year's tech conference in Berlin.",
+      "prompt": "Finish the sentence: “When I arrived at the conference in Berlin last year, I …”",
+      "notes_for_evaluator": "Requires Past Simple verb (e.g. 'registered immediately', 'met the keynote speaker'). Present Perfect ('have met') is a target violation."
+    },
+    {
+      "id": "ex_dit_01",
+      "ku": "ku_dummy_subject_it",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Quarterly compliance review.",
+      "prompt": "___ is important to maintain audit logs for all financial transactions.",
+      "accepted": ["It"],
+      "known_wrong": [
+        { "text": "Is", "sig": "sig_dummy_it_omission" }
+      ]
+    },
+    {
+      "id": "ex_dit_02",
+      "ku": "ku_dummy_subject_it",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Stating urgency during a release sync.",
+      "prompt": "Es necesario actualizar los permisos del usuario.",
+      "prompt_lang": "es",
+      "accepted": [
+        "It is necessary to update the user permissions.",
+        "It's necessary to update the user permissions."
+      ],
+      "known_wrong": []
+    },
+    {
+      "id": "ex_dit_03",
+      "ku": "ku_dummy_subject_it",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Incident management briefing.",
+      "prompt": "___ is clear that the database latency caused the checkout failure.",
+      "accepted": ["It"],
+      "known_wrong": [
+        { "text": "Is", "sig": "sig_dummy_it_omission" }
+      ]
+    },
+    {
+      "id": "ex_dit_04",
+      "ku": "ku_dummy_subject_it",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Executive town hall memo.",
+      "prompt": "Rewrite starting with “It is”: Communicating our strategy clearly is essential.",
+      "accepted": [
+        "It is essential to communicate our strategy clearly."
+      ],
+      "known_wrong": []
+    },
+    {
+      "id": "ex_dit_05",
+      "ku": "ku_dummy_subject_it",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Contract renegotiation advice.",
+      "prompt": "Es fundamental proteger la propiedad intelectual de la empresa.",
+      "prompt_lang": "es",
+      "accepted": [
+        "It is fundamental to protect the company's intellectual property.",
+        "It's fundamental to protect the company's intellectual property."
+      ],
+      "known_wrong": []
+    },
+    {
+      "id": "ex_dit_06",
+      "ku": "ku_dummy_subject_it",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Summarizing market opportunities.",
+      "prompt": "Finish the sentence: “When entering a new geographic market, it …”",
+      "notes_for_evaluator": "Check for explicit subject 'it is / it becomes'. Omission of subject pronoun is a violation."
+    },
+    {
+      "id": "ex_paux_01",
+      "ku": "ku_present_aux_do_does",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Explaining corporate policy.",
+      "prompt": "Our enterprise customer ___ not accept unsigned contracts. (do/does)",
+      "accepted": ["does"],
+      "known_wrong": [
+        { "text": "do", "sig": "sig_present_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_paux_02",
+      "ku": "ku_present_aux_do_does",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "QA test report.",
+      "prompt": "El sistema no procesa pagos duplicados.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The system does not process duplicate payments.",
+        "The system doesn't process duplicate payments."
+      ],
+      "known_wrong": [
+        { "text": "system not processes", "sig": "sig_present_aux_error" },
+        { "text": "doesn't processes", "sig": "sig_present_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_paux_03",
+      "ku": "ku_present_aux_do_does",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Standup status question.",
+      "prompt": "___ the marketing lead agree with the revised release date? (Do/Does)",
+      "accepted": ["Does"],
+      "known_wrong": [
+        { "text": "Do", "sig": "sig_present_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_paux_04",
+      "ku": "ku_present_aux_do_does",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Policy update memo.",
+      "prompt": "Make this negative: The director approves overtime without prior notice.",
+      "accepted": [
+        "The director does not approve overtime without prior notice.",
+        "The director doesn't approve overtime without prior notice."
+      ],
+      "known_wrong": [
+        { "text": "the director not approves", "sig": "sig_present_aux_error" },
+        { "text": "doesn't approves", "sig": "sig_present_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_paux_05",
+      "ku": "ku_present_aux_do_does",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "situation": "Reviewing vendor scope.",
+      "prompt": "Ellos no entregan los informes a tiempo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "They do not deliver the reports on time.",
+        "They don't deliver the reports on time."
+      ],
+      "known_wrong": [
+        { "text": "they not deliver", "sig": "sig_present_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_paux_06",
+      "ku": "ku_present_aux_do_does",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Clarifying boundaries in a joint venture.",
+      "prompt": "Finish the sentence with a negative statement: “Our legal department …”",
+      "notes_for_evaluator": "Check for 'does not / doesn't + base verb'. 'not + inflected verb' is a target violation."
+    },
+    {
+      "id": "ex_iap_01",
+      "ku": "ku_indefinite_articles_professions",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 1,
+      "situation": "Introducing an executive hire.",
+      "prompt": "Sarah joined the board as ___ advisor for artificial intelligence.",
+      "accepted": ["an"],
+      "known_wrong": [
+        { "text": "a", "sig": "sig_article_profession_omission" }
+      ]
+    },
+    {
+      "id": "ex_iap_02",
+      "ku": "ku_indefinite_articles_professions",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Networking event introduction.",
+      "prompt": "Soy gerente de operaciones en una empresa de tecnología.",
+      "prompt_lang": "es",
+      "accepted": [
+        "I am an operations manager at a technology company.",
+        "I'm an operations manager at a technology company."
+      ],
+      "known_wrong": [
+        { "text": "i am operations manager", "sig": "sig_article_profession_omission" }
+      ]
+    },
+    {
+      "id": "ex_iap_03",
+      "ku": "ku_indefinite_articles_professions",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Job description requirement.",
+      "prompt": "We are looking for ___ senior backend engineer with Go experience.",
+      "accepted": ["a"],
+      "known_wrong": [
+        { "text": "an", "sig": "sig_article_profession_omission" }
+      ]
+    },
+    {
+      "id": "ex_iap_04",
+      "ku": "ku_indefinite_articles_professions",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Introducing an external consultant.",
+      "prompt": "Rewrite stating his role: David works in financial auditing as a professional.",
+      "accepted": [
+        "David is a financial auditor.",
+        "David is an auditor."
+      ],
+      "known_wrong": [
+        { "text": "david is financial auditor", "sig": "sig_article_profession_omission" }
+      ]
+    },
+    {
+      "id": "ex_iap_05",
+      "ku": "ku_indefinite_articles_professions",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Legal representation disclosure.",
+      "prompt": "Ella es abogada corporativa y representa al inversor principal.",
+      "prompt_lang": "es",
+      "accepted": [
+        "She is a corporate lawyer and represents the lead investor.",
+        "She's a corporate lawyer and represents the lead investor."
+      ],
+      "known_wrong": [
+        { "text": "she is corporate lawyer", "sig": "sig_article_profession_omission" }
+      ]
+    },
+    {
+      "id": "ex_iap_06",
+      "ku": "ku_indefinite_articles_professions",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Professional biography opening slide.",
+      "prompt": "Finish the sentence with your professional title: “Before founding this startup, she was …”",
+      "notes_for_evaluator": "Check for 'a/an + profession' (e.g. 'a software architect', 'an executive director'). Omission of article is a violation."
+    },
+    {
+      "id": "ex_pion_01",
+      "ku": "ku_prep_in_on_at",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Calendar invitation.",
+      "prompt": "The budget review starts ___ 10:30 AM tomorrow. (at/on/in)",
+      "accepted": ["at"],
+      "known_wrong": [
+        { "text": "on", "sig": "sig_prep_time_error" },
+        { "text": "in", "sig": "sig_prep_time_error" }
+      ]
+    },
+    {
+      "id": "ex_pion_02",
+      "ku": "ku_prep_in_on_at",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Scheduling client demo.",
+      "prompt": "Presentaremos la propuesta el próximo lunes.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We will present the proposal on Monday.",
+        "We'll present the proposal on Monday.",
+        "We will present the proposal next Monday."
+      ],
+      "known_wrong": [
+        { "text": "in Monday", "sig": "sig_prep_time_error" },
+        { "text": "at Monday", "sig": "sig_prep_time_error" }
+      ]
+    },
+    {
+      "id": "ex_pion_03",
+      "ku": "ku_prep_in_on_at",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Product roadmap milestone.",
+      "prompt": "The next major platform release is scheduled ___ November. (at/on/in)",
+      "accepted": ["in"],
+      "known_wrong": [
+        { "text": "on", "sig": "sig_prep_time_error" },
+        { "text": "at", "sig": "sig_prep_time_error" }
+      ]
+    },
+    {
+      "id": "ex_pion_04",
+      "ku": "ku_prep_in_on_at",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Annual shareholder meeting memo.",
+      "prompt": "Rewrite specifying the exact day: The summit occurs in May, specifically May 15th.",
+      "accepted": [
+        "The summit occurs on May 15th.",
+        "The summit takes place on May 15th."
+      ],
+      "known_wrong": [
+        { "text": "in May 15th", "sig": "sig_prep_time_error" },
+        { "text": "at May 15th", "sig": "sig_prep_time_error" }
+      ]
+    },
+    {
+      "id": "ex_pion_05",
+      "ku": "ku_prep_in_on_at",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "situation": "Milestone delivery timeline.",
+      "prompt": "El contrato finaliza a finales de año, en 2027.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The contract ends at the end of the year, in 2027.",
+        "The contract expires at the end of the year, in 2027."
+      ],
+      "known_wrong": [
+        { "text": "on 2027", "sig": "sig_prep_time_error" },
+        { "text": "at 2027", "sig": "sig_prep_time_error" }
+      ]
+    },
+    {
+      "id": "ex_pion_06",
+      "ku": "ku_prep_in_on_at",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Flight connection itinerary.",
+      "prompt": "Finish the sentence with an exact time: “Our flight to London lands …”",
+      "notes_for_evaluator": "Check for 'at + time' (e.g. 'at 4:00 PM'). 'in' or 'on' with clock time is a violation."
+    },
+    {
+      "id": "ex_psri_01",
+      "ku": "ku_past_simple_regular_irregular",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Reporting sales quarterly result.",
+      "prompt": "Our regional team ___ (exceed) the revenue forecast last quarter.",
+      "accepted": ["exceeded"],
+      "known_wrong": [
+        { "text": "exceed", "sig": "sig_past_simple_error" }
+      ]
+    },
+    {
+      "id": "ex_psri_02",
+      "ku": "ku_past_simple_regular_irregular",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Updating executive sponsors.",
+      "prompt": "Nos reunimos con el cliente y vimos la demostración.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We met with the client and saw the demonstration.",
+        "We met the client and saw the demo."
+      ],
+      "known_wrong": [
+        { "text": "we meet the client", "sig": "sig_past_simple_error" },
+        { "text": "we seed the demonstration", "sig": "sig_past_simple_error" }
+      ]
+    },
+    {
+      "id": "ex_psri_03",
+      "ku": "ku_past_simple_regular_irregular",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Post-incident report.",
+      "prompt": "The automated monitor ___ (send) an alert as soon as latency spiked.",
+      "accepted": ["sent"],
+      "known_wrong": [
+        { "text": "sended", "sig": "sig_past_simple_error" },
+        { "text": "send", "sig": "sig_past_simple_error" }
+      ]
+    },
+    {
+      "id": "ex_psri_04",
+      "ku": "ku_past_simple_regular_irregular",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Historical company milestone.",
+      "prompt": "Change to past simple: The founders write the initial business plan.",
+      "accepted": [
+        "The founders wrote the initial business plan."
+      ],
+      "known_wrong": [
+        { "text": "the founders writed", "sig": "sig_past_simple_error" }
+      ]
+    },
+    {
+      "id": "ex_psri_05",
+      "ku": "ku_past_simple_regular_irregular",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Contract settlement debrief.",
+      "prompt": "Ellos aceptaron nuestra oferta y firmaron el acuerdo ayer.",
+      "prompt_lang": "es",
+      "accepted": [
+        "They accepted our offer and signed the agreement yesterday.",
+        "They accepted our offer and signed the deal yesterday."
+      ],
+      "known_wrong": [
+        { "text": "they accept our offer", "sig": "sig_past_simple_error" }
+      ]
+    },
+    {
+      "id": "ex_psri_06",
+      "ku": "ku_past_simple_regular_irregular",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Retrospective project review.",
+      "prompt": "Finish the sentence with past actions: “Last week our engineering squad …”",
+      "notes_for_evaluator": "Check for correct past simple regular/irregular forms (e.g. 'completed the sprint', 'built the prototype'). Base forms are a violation."
+    },
+    {
+      "id": "ex_padb_01",
+      "ku": "ku_past_aux_did_base",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Auditor query response.",
+      "prompt": "The accounting division did not ___ (notice) the discrepancy until yesterday.",
+      "accepted": ["notice"],
+      "known_wrong": [
+        { "text": "noticed", "sig": "sig_past_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_padb_02",
+      "ku": "ku_past_aux_did_base",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Bug triage communication.",
+      "prompt": "Nosotros no vimos ningún error en los registros del servidor.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We did not see any errors in the server logs.",
+        "We didn't see any errors in the server logs."
+      ],
+      "known_wrong": [
+        { "text": "didn't saw", "sig": "sig_past_aux_error" },
+        { "text": "did not saw", "sig": "sig_past_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_padb_03",
+      "ku": "ku_past_aux_did_base",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Investigating missed milestone.",
+      "prompt": "Why didn't the vendor ___ (send) the revised scope of work?",
+      "accepted": ["send"],
+      "known_wrong": [
+        { "text": "sent", "sig": "sig_past_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_padb_04",
+      "ku": "ku_past_aux_did_base",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Executive governance review.",
+      "prompt": "Make negative using “didn't”: The executive team approved the merger last year.",
+      "accepted": [
+        "The executive team didn't approve the merger last year.",
+        "The executive team did not approve the merger last year."
+      ],
+      "known_wrong": [
+        { "text": "didn't approved", "sig": "sig_past_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_padb_05",
+      "ku": "ku_past_aux_did_base",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Post-negotiation assessment.",
+      "prompt": "El cliente no vino a la presentación final.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The client did not come to the final presentation.",
+        "The client didn't come to the final presentation."
+      ],
+      "known_wrong": [
+        { "text": "didn't came", "sig": "sig_past_aux_error" },
+        { "text": "did not came", "sig": "sig_past_aux_error" }
+      ]
+    },
+    {
+      "id": "ex_padb_06",
+      "ku": "ku_past_aux_did_base",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Travel",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Expense report justification.",
+      "prompt": "Finish the sentence with a negative past action: “During the international workshop, we didn't …”",
+      "notes_for_evaluator": "Check for 'didn't + base verb' (e.g. 'didn't incur extra expenses', 'didn't rent a car'). Inflected past verb is a violation."
+    },
+    {
+      "id": "ex_fwg_01",
+      "ku": "ku_future_will_vs_going_to",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Stating an established Q4 strategic roadmap.",
+      "prompt": "We have secured the budget, so we are ___ (go) to hire five software architects.",
+      "accepted": ["going"],
+      "known_wrong": [
+        { "text": "will", "sig": "sig_future_will_plan_error" }
+      ]
+    },
+    {
+      "id": "ex_fwg_02",
+      "ku": "ku_future_will_vs_going_to",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Announcing a pre-scheduled database migration.",
+      "prompt": "Vamos a migrar los servidores este fin de semana.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We are going to migrate the servers this weekend.",
+        "We're going to migrate the servers this weekend."
+      ],
+      "known_wrong": [
+        { "text": "we will migrate", "sig": "sig_future_will_plan_error" }
+      ]
+    },
+    {
+      "id": "ex_fwg_03",
+      "ku": "ku_future_will_vs_going_to",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Spontaneous offer during a conference call.",
+      "prompt": "Don't worry about the minutes; I ___ send them to everyone after the call. (will/am going to)",
+      "accepted": ["will"],
+      "known_wrong": [
+        { "text": "am going to", "sig": "sig_future_will_plan_error" }
+      ]
+    },
+    {
+      "id": "ex_fwg_04",
+      "ku": "ku_future_will_vs_going_to",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Stating an official corporate decision.",
+      "prompt": "Rewrite using “going to”: The company has decided to launch operations in Mexico next month.",
+      "accepted": [
+        "The company is going to launch operations in Mexico next month."
+      ],
+      "known_wrong": [
+        { "text": "the company will launch", "sig": "sig_future_will_plan_error" }
+      ]
+    },
+    {
+      "id": "ex_fwg_05",
+      "ku": "ku_future_will_vs_going_to",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Spontaneous agreement in a deal room.",
+      "prompt": "Trato hecho; te llamaré mañana por la mañana.",
+      "prompt_lang": "es",
+      "accepted": [
+        "Deal; I will call you tomorrow morning.",
+        "Deal; I'll call you tomorrow morning."
+      ],
+      "known_wrong": [
+        { "text": "i am going to call you", "sig": "sig_future_will_plan_error" }
+      ]
+    },
+    {
+      "id": "ex_fwg_06",
+      "ku": "ku_future_will_vs_going_to",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Presenting the approved corporate 3-year vision.",
+      "prompt": "Finish the sentence with an approved plan: “In accordance with board approval, we are going to …”",
+      "notes_for_evaluator": "Check for 'be going to + base verb' expressing pre-arranged strategic plan."
+    },
+    {
+      "id": "ex_mccb_01",
+      "ku": "ku_modals_can_could_bare",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Assessing API capabilities.",
+      "prompt": "The new API can ___ (process) ten thousand concurrent requests.",
+      "accepted": ["process"],
+      "known_wrong": [
+        { "text": "to process", "sig": "sig_modal_bare_error" }
+      ]
+    },
+    {
+      "id": "ex_mccb_02",
+      "ku": "ku_modals_can_could_bare",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Offering assistance to a project manager.",
+      "prompt": "Puedo enviar el informe financiero esta tarde.",
+      "prompt_lang": "es",
+      "accepted": [
+        "I can send the financial report this afternoon."
+      ],
+      "known_wrong": [
+        { "text": "i can to send", "sig": "sig_modal_bare_error" }
+      ]
+    },
+    {
+      "id": "ex_mccb_03",
+      "ku": "ku_modals_can_could_bare",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Polite inquiry to an enterprise supplier.",
+      "prompt": "Could you please ___ (provide) the updated price list?",
+      "accepted": ["provide"],
+      "known_wrong": [
+        { "text": "to provide", "sig": "sig_modal_bare_error" }
+      ]
+    },
+    {
+      "id": "ex_mccb_04",
+      "ku": "ku_modals_can_could_bare",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Delegating authority.",
+      "prompt": "Rewrite using “can”: You have permission to approve travel budgets under five thousand dollars.",
+      "accepted": [
+        "You can approve travel budgets under five thousand dollars."
+      ],
+      "known_wrong": [
+        { "text": "you can to approve", "sig": "sig_modal_bare_error" }
+      ]
+    },
+    {
+      "id": "ex_mccb_05",
+      "ku": "ku_modals_can_could_bare",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 2,
+      "situation": "Clarifying concessions during trade talks.",
+      "prompt": "No podemos aceptar esas condiciones de pago.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We cannot accept those payment terms.",
+        "We can't accept those payment terms.",
+        "We cannot accept those payment conditions."
+      ],
+      "known_wrong": [
+        { "text": "cannot to accept", "sig": "sig_modal_bare_error" },
+        { "text": "can't to accept", "sig": "sig_modal_bare_error" }
+      ]
+    },
+    {
+      "id": "ex_mccb_06",
+      "ku": "ku_modals_can_could_bare",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Highlighting system benefits in a client demo.",
+      "prompt": "Finish the sentence: “With our machine learning pipeline, your analysts can …”",
+      "notes_for_evaluator": "Check for bare verb after can (e.g. 'can detect anomalies faster'). 'can to + verb' is a target violation."
+    },
+    {
+      "id": "ex_comp_01",
+      "ku": "ku_comparatives_er_vs_more",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 1,
+      "situation": "Database performance benchmarking.",
+      "prompt": "The new indexing strategy is ___ (fast) than the previous query planner.",
+      "accepted": ["faster"],
+      "known_wrong": [
+        { "text": "more fast", "sig": "sig_comparative_form_error" },
+        { "text": "more faster", "sig": "sig_comparative_form_error" }
+      ]
+    },
+    {
+      "id": "ex_comp_02",
+      "ku": "ku_comparatives_er_vs_more",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Vendor proposal comparison.",
+      "prompt": "Esta solución es más eficiente que la alternativa existente.",
+      "prompt_lang": "es",
+      "accepted": [
+        "This solution is more efficient than the existing alternative.",
+        "This solution is more efficient than the current alternative."
+      ],
+      "known_wrong": [
+        { "text": "efficienter than", "sig": "sig_comparative_form_error" }
+      ]
+    },
+    {
+      "id": "ex_comp_03",
+      "ku": "ku_comparatives_er_vs_more",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Negotiation",
+      "difficulty": 1,
+      "situation": "Pricing concessions.",
+      "prompt": "Their revised price point is ___ (low) than our initial target.",
+      "accepted": ["lower"],
+      "known_wrong": [
+        { "text": "more low", "sig": "sig_comparative_form_error" }
+      ]
+    },
+    {
+      "id": "ex_comp_04",
+      "ku": "ku_comparatives_er_vs_more",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Productivity analysis.",
+      "prompt": "Rewrite using “better than”: The new workflow exceeds the old system in quality.",
+      "accepted": [
+        "The new workflow is better than the old system."
+      ],
+      "known_wrong": [
+        { "text": "more better than", "sig": "sig_comparative_form_error" },
+        { "text": "more good than", "sig": "sig_comparative_form_error" }
+      ]
+    },
+    {
+      "id": "ex_comp_05",
+      "ku": "ku_comparatives_er_vs_more",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 2,
+      "situation": "Competitive analysis slide.",
+      "prompt": "Nuestra plataforma es más segura que la de la competencia.",
+      "prompt_lang": "es",
+      "accepted": [
+        "Our platform is more secure than the competition's.",
+        "Our platform is more secure than our competitors'."
+      ],
+      "known_wrong": [
+        { "text": "securer than", "sig": "sig_comparative_form_error" }
+      ]
+    },
+    {
+      "id": "ex_comp_06",
+      "ku": "ku_comparatives_er_vs_more",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Sprint velocity comparison.",
+      "prompt": "Finish the sentence comparing sprints: “With continuous integration, deployment is now …”",
+      "notes_for_evaluator": "Check for correct comparative (e.g. 'faster than before', 'more reliable than last quarter'). 'more fast' is a target violation."
+    },
+    {
+      "id": "ex_vpat_01",
+      "ku": "ku_verb_patterns_gerund_inf",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Executive risk advisory.",
+      "prompt": "We must avoid ___ (take) uncalculated compliance risks in this market.",
+      "accepted": ["taking"],
+      "known_wrong": [
+        { "text": "to take", "sig": "sig_verb_pattern_error" }
+      ]
+    },
+    {
+      "id": "ex_vpat_02",
+      "ku": "ku_verb_patterns_gerund_inf",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Sprint planning agreement.",
+      "prompt": "El comité decidió posponer el lanzamiento de la función.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The committee decided to postpone the feature launch.",
+        "The committee decided to delay the feature launch."
+      ],
+      "known_wrong": [
+        { "text": "decided postponing", "sig": "sig_verb_pattern_error" }
+      ]
+    },
+    {
+      "id": "ex_vpat_03",
+      "ku": "ku_verb_patterns_gerund_inf",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 1,
+      "situation": "Client satisfaction memo.",
+      "prompt": "Our partners enjoy ___ (work) with our customer success team.",
+      "accepted": ["working"],
+      "known_wrong": [
+        { "text": "to work", "sig": "sig_verb_pattern_error" }
+      ]
+    },
+    {
+      "id": "ex_vpat_04",
+      "ku": "ku_verb_patterns_gerund_inf",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "Contractual commitments.",
+      "prompt": "Rewrite using “agreed to”: Both parties gave consent to share the audit report.",
+      "accepted": [
+        "Both parties agreed to share the audit report."
+      ],
+      "known_wrong": [
+        { "text": "agreed sharing", "sig": "sig_verb_pattern_error" }
+      ]
+    },
+    {
+      "id": "ex_vpat_05",
+      "ku": "ku_verb_patterns_gerund_inf",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Refactoring protocol.",
+      "prompt": "Sugerimos migrar los microservicios gradualmente.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We suggest migrating the microservices gradually.",
+        "We suggested migrating the microservices gradually."
+      ],
+      "known_wrong": [
+        { "text": "suggest to migrate", "sig": "sig_verb_pattern_error" }
+      ]
+    },
+    {
+      "id": "ex_vpat_06",
+      "ku": "ku_verb_patterns_gerund_inf",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Risk mitigation strategy.",
+      "prompt": "Finish the sentence with an -ing complement: “To prevent security incidents, we strictly avoid …”",
+      "notes_for_evaluator": "Check for gerund after avoid (e.g. 'storing credentials in plain text'). 'to store' is a target violation."
+    },
+    {
+      "id": "ex_list_01",
+      "ku": "ku_listen_to",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Meetings",
+      "difficulty": 1,
+      "situation": "Customer advisory board feedback.",
+      "prompt": "We need to listen ___ the stakeholders before finalizing the roadmap. (to/of/at)",
+      "accepted": ["to"],
+      "known_wrong": [
+        { "text": "of", "sig": "sig_listen_to_error" },
+        { "text": "at", "sig": "sig_listen_to_error" }
+      ]
+    },
+    {
+      "id": "ex_list_02",
+      "ku": "ku_listen_to",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 1,
+      "situation": "Executive coaching principle.",
+      "prompt": "Un buen líder siempre escucha a su equipo.",
+      "prompt_lang": "es",
+      "accepted": [
+        "A good leader always listens to their team.",
+        "A good leader always listens to his team.",
+        "A good leader always listens to her team."
+      ],
+      "known_wrong": [
+        { "text": "listens their team", "sig": "sig_listen_to_error" },
+        { "text": "listens his team", "sig": "sig_listen_to_error" }
+      ]
+    },
+    {
+      "id": "ex_list_03",
+      "ku": "ku_listen_to",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Negotiation",
+      "difficulty": 1,
+      "situation": "Client objection handling.",
+      "prompt": "The procurement director listened ___ our explanation with great attention.",
+      "accepted": ["to"],
+      "known_wrong": [
+        { "text": "at", "sig": "sig_listen_to_error" }
+      ]
+    },
+    {
+      "id": "ex_list_04",
+      "ku": "ku_listen_to",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Customer discovery survey.",
+      "prompt": "Rewrite using “listen to”: We pay close attention to user feedback.",
+      "accepted": [
+        "We listen to user feedback."
+      ],
+      "known_wrong": [
+        { "text": "we listen user feedback", "sig": "sig_listen_to_error" }
+      ]
+    },
+    {
+      "id": "ex_list_05",
+      "ku": "ku_listen_to",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 2,
+      "situation": "Keynote audience engagement.",
+      "prompt": "El público escuchó atentamente la presentación del producto.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The audience listened to the product presentation attentively.",
+        "The audience listened attentively to the product presentation."
+      ],
+      "known_wrong": [
+        { "text": "listened the product presentation", "sig": "sig_listen_to_error" }
+      ]
+    },
+    {
+      "id": "ex_list_06",
+      "ku": "ku_listen_to",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "eval_mode": "llm_only",
+      "situation": "Incident root cause review.",
+      "prompt": "Finish the sentence: “If the engineering leads had listened …”",
+      "notes_for_evaluator": "Check for 'listened to + object' (e.g. 'listened to the warnings', 'listened to the QA report'). Omission of 'to' is a violation."
+    },
+    {
+      "id": "ex_ppc_01",
+      "ku": "ku_present_perf_continuous",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Debugging session report.",
+      "prompt": "Our DevOps squad has ___ (investigate) the latency spike since 8 AM.",
+      "accepted": ["been investigating"],
+      "known_wrong": [
+        { "text": "investigated", "sig": "sig_perf_continuous_error" }
+      ]
+    },
+    {
+      "id": "ex_ppc_02",
+      "ku": "ku_present_perf_continuous",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Client contract renewal conversation.",
+      "prompt": "Llevamos colaborando con este proveedor durante tres años.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We have been collaborating with this supplier for three years.",
+        "We've been collaborating with this supplier for three years."
+      ],
+      "known_wrong": [
+        { "text": "we are collaborating with this supplier for three years", "sig": "sig_perf_continuous_error" }
+      ]
+    },
+    {
+      "id": "ex_ppc_03",
+      "ku": "ku_present_perf_continuous",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Quarterly performance review.",
+      "prompt": "She has ___ (lead) the transformation team since last November.",
+      "accepted": ["been leading"],
+      "known_wrong": [
+        { "text": "lead", "sig": "sig_perf_continuous_error" }
+      ]
+    },
+    {
+      "id": "ex_ppc_04",
+      "ku": "ku_present_perf_continuous",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Sprint status update.",
+      "prompt": "Rewrite using “have been working”: We started working on this patch three days ago and are still doing it.",
+      "accepted": [
+        "We have been working on this patch for three days.",
+        "We've been working on this patch for three days."
+      ],
+      "known_wrong": [
+        { "text": "we are working on this patch for three days", "sig": "sig_perf_continuous_error" }
+      ]
+    },
+    {
+      "id": "ex_ppc_05",
+      "ku": "ku_present_perf_continuous",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "situation": "Deliverable delay explanation.",
+      "prompt": "El equipo ha estado probando el software toda la semana.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The team has been testing the software all week.",
+        "The team have been testing the software all week."
+      ],
+      "known_wrong": [
+        { "text": "team is testing the software all week", "sig": "sig_perf_continuous_error" }
+      ]
+    },
+    {
+      "id": "ex_ppc_06",
+      "ku": "ku_present_perf_continuous",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Prolonged contract negotiation recap.",
+      "prompt": "Finish the sentence with an ongoing duration: “Both legal teams have been …”",
+      "notes_for_evaluator": "Check for have been + -ing (e.g. 'have been reviewing the clauses for weeks'). Simple continuous is a target violation."
+    },
+    {
+      "id": "ex_mded_01",
+      "ku": "ku_modal_deduction_past_pres",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Root cause deduction after a service crash.",
+      "prompt": "The primary cluster was offline; the backup service must have ___ (take) over automatically.",
+      "accepted": ["taken"],
+      "known_wrong": [
+        { "text": "took", "sig": "sig_modal_deduction_error" }
+      ]
+    },
+    {
+      "id": "ex_mded_02",
+      "ku": "ku_modal_deduction_past_pres",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Explaining an unreceived email.",
+      "prompt": "El correo debe de haber ido a la carpeta de spam.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The email must have gone to the spam folder.",
+        "The message must have gone to the spam folder."
+      ],
+      "known_wrong": [
+        { "text": "must went", "sig": "sig_modal_deduction_error" },
+        { "text": "must was went", "sig": "sig_modal_deduction_error" }
+      ]
+    },
+    {
+      "id": "ex_mded_03",
+      "ku": "ku_modal_deduction_past_pres",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Revenue deduction.",
+      "prompt": "With ten thousand pre-orders, the product launch ___ be a commercial success. (must/can't)",
+      "accepted": ["must"],
+      "known_wrong": [
+        { "text": "can't", "sig": "sig_modal_deduction_error" }
+      ]
+    },
+    {
+      "id": "ex_mded_04",
+      "ku": "ku_modal_deduction_past_pres",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Deducing executive intent.",
+      "prompt": "Rewrite using “must have”: I am virtually certain that the CEO approved the budget increase.",
+      "accepted": [
+        "The CEO must have approved the budget increase."
+      ],
+      "known_wrong": [
+        { "text": "the ceo must approved", "sig": "sig_modal_deduction_error" }
+      ]
+    },
+    {
+      "id": "ex_mded_05",
+      "ku": "ku_modal_deduction_past_pres",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "Evaluating a competitor's impossible offer.",
+      "prompt": "Ellos no pueden haber firmado con otro proveedor tan rápido.",
+      "prompt_lang": "es",
+      "accepted": [
+        "They can't have signed with another supplier so quickly.",
+        "They cannot have signed with another supplier so quickly."
+      ],
+      "known_wrong": [
+        { "text": "can't signed", "sig": "sig_modal_deduction_error" }
+      ]
+    },
+    {
+      "id": "ex_mded_06",
+      "ku": "ku_modal_deduction_past_pres",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Investigating an unnotified schedule change.",
+      "prompt": "Finish the sentence with past deduction: “The vendor didn't join the call, so they must have …”",
+      "notes_for_evaluator": "Check for 'must have + past participle' (e.g. 'must have forgotten the time'). 'must forget' or 'must forgot' is a target violation."
+    },
+    {
+      "id": "ex_cda_01",
+      "ku": "ku_connectors_despite_vs_although",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Earnings press release.",
+      "prompt": "___ the supply chain disruptions, Q3 operating margins reached 24%. (Despite/Although)",
+      "accepted": ["Despite"],
+      "known_wrong": [
+        { "text": "Although", "sig": "sig_despite_although_error" }
+      ]
+    },
+    {
+      "id": "ex_cda_02",
+      "ku": "ku_connectors_despite_vs_although",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "Engineering post-mortem.",
+      "prompt": "A pesar de que el plazo era ajustado, entregamos la función sin errores.",
+      "prompt_lang": "es",
+      "accepted": [
+        "Although the deadline was tight, we delivered the feature without bugs.",
+        "Although the deadline was tight, we delivered the feature without errors.",
+        "Even though the deadline was tight, we delivered the feature without bugs."
+      ],
+      "known_wrong": [
+        { "text": "despite the deadline was tight", "sig": "sig_despite_although_error" }
+      ]
+    },
+    {
+      "id": "ex_cda_03",
+      "ku": "ku_connectors_despite_vs_although",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 2,
+      "situation": "Executive strategic memo.",
+      "prompt": "___ the market was volatile, the board reaffirmed its expansion strategy. (Although/Despite)",
+      "accepted": ["Although"],
+      "known_wrong": [
+        { "text": "Despite", "sig": "sig_despite_although_error" }
+      ]
+    },
+    {
+      "id": "ex_cda_04",
+      "ku": "ku_connectors_despite_vs_although",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Sprint recap.",
+      "prompt": "Rewrite starting with “Despite”: Although there were several technical delays, the pilot succeeded.",
+      "accepted": [
+        "Despite several technical delays, the pilot succeeded."
+      ],
+      "known_wrong": [
+        { "text": "despite there were several technical delays", "sig": "sig_despite_although_error" }
+      ]
+    },
+    {
+      "id": "ex_cda_05",
+      "ku": "ku_connectors_despite_vs_although",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "Closing statement in arbitration.",
+      "prompt": "A pesar del incremento de costes, mantuvimos el precio acordado.",
+      "prompt_lang": "es",
+      "accepted": [
+        "Despite the increase in costs, we maintained the agreed price.",
+        "Despite rising costs, we maintained the agreed price."
+      ],
+      "known_wrong": [
+        { "text": "although the increase in costs", "sig": "sig_despite_although_error" }
+      ]
+    },
+    {
+      "id": "ex_cda_06",
+      "ku": "ku_connectors_despite_vs_although",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Presentations",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Presenting risk resilience to investors.",
+      "prompt": "Finish the sentence with a noun phrase: “Our customer retention remained strong despite …”",
+      "notes_for_evaluator": "Check for noun phrase or gerund after despite (e.g. 'despite market turbulence'). A full clause (subject + verb) without 'the fact that' is a violation."
+    },
+    {
+      "id": "ex_pcpf_01",
+      "ku": "ku_passive_continuous_perfect",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Technology",
+      "difficulty": 2,
+      "situation": "System maintenance status page.",
+      "prompt": "The core authentication microservice is currently being ___ (upgrade).",
+      "accepted": ["upgraded"],
+      "known_wrong": [
+        { "text": "upgrade", "sig": "sig_passive_form_error" },
+        { "text": "upgrading", "sig": "sig_passive_form_error" }
+      ]
+    },
+    {
+      "id": "ex_pcpf_02",
+      "ku": "ku_passive_continuous_perfect",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 2,
+      "situation": "Ticket resolution update.",
+      "prompt": "El problema de seguridad ha sido resuelto por los ingenieros.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The security issue has been resolved by the engineers.",
+        "The security bug has been resolved by the engineers."
+      ],
+      "known_wrong": [
+        { "text": "has been resolve", "sig": "sig_passive_form_error" },
+        { "text": "has resolved by", "sig": "sig_passive_form_error" }
+      ]
+    },
+    {
+      "id": "ex_pcpf_03",
+      "ku": "ku_passive_continuous_perfect",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 2,
+      "situation": "Corporate auditing memo.",
+      "prompt": "All vendor invoices have ___ (process) by accounts payable.",
+      "accepted": ["been processed"],
+      "known_wrong": [
+        { "text": "being processed", "sig": "sig_passive_form_error" }
+      ]
+    },
+    {
+      "id": "ex_pcpf_04",
+      "ku": "ku_passive_continuous_perfect",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Change management update.",
+      "prompt": "Rewrite in passive continuous: The legal team is reviewing the new policy right now.",
+      "accepted": [
+        "The new policy is being reviewed by the legal team right now.",
+        "The new policy is being reviewed right now."
+      ],
+      "known_wrong": [
+        { "text": "is reviewing right now", "sig": "sig_passive_form_error" }
+      ]
+    },
+    {
+      "id": "ex_pcpf_05",
+      "ku": "ku_passive_continuous_perfect",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 2,
+      "situation": "Infrastructure sprint update.",
+      "prompt": "Los servidores están siendo configurados en este momento.",
+      "prompt_lang": "es",
+      "accepted": [
+        "The servers are being configured right now.",
+        "The servers are being configured at the moment."
+      ],
+      "known_wrong": [
+        { "text": "are configured right now", "sig": "sig_passive_form_error" },
+        { "text": "are configuring right now", "sig": "sig_passive_form_error" }
+      ]
+    },
+    {
+      "id": "ex_pcpf_06",
+      "ku": "ku_passive_continuous_perfect",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Contract status update to client.",
+      "prompt": "Finish the sentence with present perfect passive: “The revised clauses have …”",
+      "notes_for_evaluator": "Check for 'have been + past participle' (e.g. 'have been approved by legal'). Active verb form or missing 'been' is a violation."
+    },
+    {
+      "id": "ex_tcph_01",
+      "ku": "ku_third_conditional_past_hypo",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Business",
+      "difficulty": 3,
+      "situation": "Post-merger audit debrief.",
+      "prompt": "If we had ___ (conduct) due diligence earlier, we would have avoided the liability.",
+      "accepted": ["conducted"],
+      "known_wrong": [
+        { "text": "conduct", "sig": "sig_third_cond_error" }
+      ]
+    },
+    {
+      "id": "ex_tcph_02",
+      "ku": "ku_third_conditional_past_hypo",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Technology",
+      "difficulty": 3,
+      "situation": "Infrastructure post-mortem analysis.",
+      "prompt": "Si hubiéramos detectado el fallo antes, habríamos prevenido la caída del sistema.",
+      "prompt_lang": "es",
+      "accepted": [
+        "If we had detected the bug earlier, we would have prevented the system outage.",
+        "If we had detected the bug earlier, we'd have prevented the system outage.",
+        "If we had detected the failure earlier, we would have prevented the outage."
+      ],
+      "known_wrong": [
+        { "text": "if we would have detected", "sig": "sig_third_cond_error" }
+      ]
+    },
+    {
+      "id": "ex_tcph_03",
+      "ku": "ku_third_conditional_past_hypo",
+      "type": "fill_in_blank",
+      "elicitation": "constrained",
+      "context": "Leadership",
+      "difficulty": 3,
+      "situation": "Strategic executive retrospective.",
+      "prompt": "If the executive board ___ (approve) the budget, we would have launched the platform in June.",
+      "accepted": ["had approved"],
+      "known_wrong": [
+        { "text": "would have approved", "sig": "sig_third_cond_error" }
+      ]
+    },
+    {
+      "id": "ex_tcph_04",
+      "ku": "ku_third_conditional_past_hypo",
+      "type": "reformulation",
+      "elicitation": "constructed",
+      "context": "Meetings",
+      "difficulty": 3,
+      "situation": "Reflecting on a missed client deadline.",
+      "prompt": "Rewrite as third conditional starting with “If the client had”: The client did not send the specs, so we missed the release date.",
+      "accepted": [
+        "If the client had sent the specs, we would have met the release date.",
+        "If the client had sent the specs, we wouldn't have missed the release date."
+      ],
+      "known_wrong": [
+        { "text": "if the client would have sent", "sig": "sig_third_cond_error" }
+      ]
+    },
+    {
+      "id": "ex_tcph_05",
+      "ku": "ku_third_conditional_past_hypo",
+      "type": "translation",
+      "elicitation": "constructed",
+      "context": "Negotiation",
+      "difficulty": 3,
+      "situation": "Reflecting on an abandoned partnership.",
+      "prompt": "Habríamos firmado el contrato si ellos hubieran rebajado el precio.",
+      "prompt_lang": "es",
+      "accepted": [
+        "We would have signed the contract if they had lowered the price.",
+        "We'd have signed the contract if they had lowered the price."
+      ],
+      "known_wrong": [
+        { "text": "if they would have lowered", "sig": "sig_third_cond_error" }
+      ]
+    },
+    {
+      "id": "ex_tcph_06",
+      "ku": "ku_third_conditional_past_hypo",
+      "type": "sentence_completion",
+      "elicitation": "constructed",
+      "context": "ProjectManagement",
+      "difficulty": 3,
+      "eval_mode": "llm_only",
+      "situation": "Post-project reflection on staff allocation.",
+      "prompt": "Finish the sentence with a counterfactual past consequence: “If the team had received the API keys in time, we …”",
+      "notes_for_evaluator": "Check for 'would have + past participle' (e.g. 'would have completed the integration'). 'would complete' or 'had completed' in result clause is a violation."
+    }
+  ]
+}

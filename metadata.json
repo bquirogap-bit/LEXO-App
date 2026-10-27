@@ -1,0 +1,6 @@
+{
+  "name": "LEXO",
+  "description": "Calm, evidence-based training of linguistic behaviors for Spanish-speaking professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

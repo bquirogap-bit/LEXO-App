@@ -1,0 +1,255 @@
+{
+  "golden_version": "1.0",
+  "cases": [
+    {
+      "id": "gold_tps_01",
+      "exercise_id": "ex_tps_01",
+      "ku_id": "ku_tps_s",
+      "response": "manages",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_tps_02",
+      "exercise_id": "ex_tps_02",
+      "ku_id": "ku_tps_s",
+      "response": "She reviews the contracts before every meeting.",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_tps_03",
+      "exercise_id": "ex_tps_01",
+      "ku_id": "ku_tps_s",
+      "response": "manage",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_tps_omission",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_tps_04",
+      "exercise_id": "ex_tps_06",
+      "ku_id": "ku_tps_s",
+      "response": "should listen to team members and provide guidance.",
+      "expected_outcome": "avoided",
+      "expected_opportunity": "absent",
+      "expected_counts": false,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_resp_01",
+      "exercise_id": "ex_resp_01",
+      "ku_id": "ku_responsible_for",
+      "response": "for",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_resp_02",
+      "exercise_id": "ex_resp_02",
+      "ku_id": "ku_responsible_for",
+      "response": "I'm responsible for data security.",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_resp_03",
+      "exercise_id": "ex_resp_01",
+      "ku_id": "ku_responsible_for",
+      "response": "of",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_resp_wrong_prep",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_resp_04",
+      "exercise_id": "ex_resp_04",
+      "ku_id": "ku_responsible_for",
+      "response": "to the steering committee.",
+      "expected_outcome": "unclear",
+      "expected_opportunity": "unclear",
+      "expected_counts": false,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_fc_01",
+      "exercise_id": "ex_fc_01",
+      "ku_id": "ku_first_conditional_if_present",
+      "response": "approve",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_fc_02",
+      "exercise_id": "ex_fc_02",
+      "ku_id": "ku_first_conditional_if_present",
+      "response": "If we don't sign the contract today, we will lose the offer.",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_fc_03",
+      "exercise_id": "ex_fc_01",
+      "ku_id": "ku_first_conditional_if_present",
+      "response": "will approve",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_fc_will_in_if",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_fc_04",
+      "exercise_id": "ex_fc_05",
+      "ku_id": "ku_first_conditional_if_present",
+      "response": "immediately whenever possible.",
+      "expected_outcome": "avoided",
+      "expected_opportunity": "absent",
+      "expected_counts": false,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_caus_01",
+      "exercise_id": "ex_caus_01",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "response": "work",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_caus_02",
+      "exercise_id": "ex_caus_02",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "response": "The director made us repeat the presentation.",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_caus_03",
+      "exercise_id": "ex_caus_01",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "response": "to work",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_caus_to_inf",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_caus_04",
+      "exercise_id": "ex_caus_05",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "response": "feel frustrated and tired.",
+      "expected_outcome": "avoided",
+      "expected_opportunity": "absent",
+      "expected_counts": false,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_wf_01",
+      "exercise_id": "ex_wf_01",
+      "ku_id": "ku_wordfamily_manage",
+      "response": "management",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_wf_02",
+      "exercise_id": "ex_wf_02",
+      "ku_id": "ku_wordfamily_manage",
+      "response": "manageable",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_wf_03",
+      "exercise_id": "ex_wf_02",
+      "ku_id": "ku_wordfamily_manage",
+      "response": "managable",
+      "expected_outcome": "correct",
+      "expected_opportunity": "present",
+      "expected_counts": true,
+      "notes": "Typo handled via known_typos",
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_wf_04",
+      "exercise_id": "ex_wf_01",
+      "ku_id": "ku_wordfamily_manage",
+      "response": "manage",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_wf_wrong_form",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_wf_05",
+      "exercise_id": "ex_wf_03",
+      "ku_id": "ku_wordfamily_manage",
+      "response": "management",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_wf_wrong_form",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_tps_05",
+      "exercise_id": "ex_tps_03",
+      "ku_id": "ku_tps_s",
+      "response": "offer",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_tps_omission",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_resp_05",
+      "exercise_id": "ex_resp_03",
+      "ku_id": "ku_responsible_for",
+      "response": "about",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_resp_wrong_prep",
+      "expected_counts": true,
+      "needs_human_review": true
+    },
+    {
+      "id": "gold_caus_05",
+      "exercise_id": "ex_caus_03",
+      "ku_id": "ku_causative_make_let_bare_inf",
+      "response": "changing",
+      "expected_outcome": "error",
+      "expected_opportunity": "present",
+      "expected_signature": "sig_caus_ing",
+      "expected_counts": true,
+      "needs_human_review": true
+    }
+  ]
+}
